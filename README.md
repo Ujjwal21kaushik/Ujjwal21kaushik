@@ -1,16 +1,90 @@
-## Hi there 👋
+<!-- Profile README for Ujjwal21kaushik. Put this file in the root of the repository
+     named exactly Ujjwal21kaushik to display it on your GitHub profile. -->
 
-<!--
-**Ujjwal21kaushik/Ujjwal21kaushik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&section=header&text=Ujjwal%20Kaushik&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Developer%20%7C%20Python%20%7C%20Java&descSize=17&descAlignY=57" alt="Ujjwal Kaushik profile banner" width="100%" />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+reliable+backend+systems;Learning+and+building+every+day;Turning+ideas+into+working+software" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+reliable+backend+systems;Learning+and+building+every+day;Turning+ideas+into+working+software" alt="Typing introduction" />
+  </a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+  </a>
+  <a href="mailto:ujjwalkaus21@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Ujjwal" />
+  </a>
+  <a href="https://github.com/Ujjwal21kaushik">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+  </a>
+</p>
+
+---
+
+## 👋 About Me
+
+Hi, I'm **Ujjwal Kaushik**, a Computer Science engineering student and developer who enjoys building useful software and learning how systems work behind the scenes.
+
+- 🐍 Interested in **Python backend development** and building clean, reliable APIs.
+- ☕ Practicing **Data Structures and Algorithms in Java**.
+- 🔌 Exploring API development, authentication, databases, caching, and automation.
+- 🌐 Growing my full-stack skills with **JavaScript, React, and Node.js**.
+- 🚀 I learn best by building projects, debugging problems, and improving a little every day.
+
+## 🧰 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,react,tailwind,fastapi,flask,django,nodejs,express,postgres,mongodb,mysql,redis,git,github,postman,vscode&perline=10" alt="Technologies and tools" />
+</p>
+
+## 🔭 What I'm Working On
+
+- Building and improving backend APIs with Python frameworks.
+- Practicing DSA patterns and problem-solving in Java.
+- Developing frontend skills with React and Tailwind CSS.
+- Learning how to connect applications to databases and deploy them reliably.
+
+## 📌 Areas of Interest
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend%20Development-2C5364?style=flat-square" alt="Backend development" />
+  <img src="https://img.shields.io/badge/REST%20APIs-176B87?style=flat-square" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/Databases-3A7D44?style=flat-square" alt="Databases" />
+  <img src="https://img.shields.io/badge/DSA%20%7C%20Java-B07219?style=flat-square" alt="DSA and Java" />
+  <img src="https://img.shields.io/badge/Full--Stack%20Development-6E40C9?style=flat-square" alt="Full-stack development" />
+  <img src="https://img.shields.io/badge/Automation-BA4A00?style=flat-square" alt="Automation" />
+</p>
+
+## 📊 GitHub Overview
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ujjwal21kaushik&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Ujjwal's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ujjwal21kaushik&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Most used languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Ujjwal21kaushik&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
+</p>
+
+## 🐍 Contribution Graph
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution graph animation" src="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</p>
+
+---
+
+<p align="center">
+  <i>Thanks for visiting my profile! Feel free to connect or explore my repositories.</i><br />
+  <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280">LinkedIn</a> ·
+  <a href="mailto:ujjwalkaus21@gmail.com">Email</a> ·
+  <a href="https://github.com/Ujjwal21kaushik">GitHub</a>
+</p>
