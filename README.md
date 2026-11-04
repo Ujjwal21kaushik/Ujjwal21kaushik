@@ -1,10 +1,3 @@
-<!--
-  GitHub Profile README for Ujjwal21kaushik
-  Repository name must be exactly: Ujjwal21kaushik
-  Animations in /assets are self-hosted SVGs, so they never depend on third-party servers.
-  The LeetCode card is rebuilt by .github/workflows/leetcode.yml.
-  Stats cards (github-readme-stats etc.) are third-party and may occasionally be rate-limited.
--->
 
 <p align="center">
   <img src="assets/hero.svg" alt="Ujjwal Kaushik - Backend Developer" width="100%" />
@@ -130,7 +123,7 @@ Searchable directory with business listings and membership flows.
 Upload spreadsheets and visualise call or lead statuses at a glance.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Charts](https://img.shields.io/badge/Charts-00D4FF?style=flat-square&logoColor=black)
+![Charts]
 
 `file upload` · `data viz` · `status tracking`
 
@@ -161,8 +154,6 @@ Experimenting with a gateway and location-aware edge servers.
 
 <p align="center">
   <a href="https://leetcode.com/u/ueMXf7R1D6/"><img src="https://img.shields.io/badge/LeetCode-ueMXf7R1D6-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="Open LeetCode profile" /></a>
-  <img src="https://img.shields.io/badge/Focus-DSA%20with%20Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="DSA with Java" />
-  <img src="https://img.shields.io/badge/Practice-Consistency-2EA44F?style=flat-square" alt="Consistent practice" />
 </p>
 
 <p align="center">
