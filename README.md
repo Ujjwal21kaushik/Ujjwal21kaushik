@@ -145,13 +145,13 @@ Computer Science engineering student who enjoys **building backend systems**, **
 </td>
 <td width="50%" valign="top">
 
-<h3>🏢 Business Listing Platform</h3>
+<!-- <h3>🏢 Business Listing Platform</h3>
 <p><b>Coming soon to GitHub</b></p>
 <p>A Justdial-style business discovery platform. The public repository link will be added once the project is published.</p>
 <p>
   <img src="https://img.shields.io/badge/Repository-Coming_Soon-64748b?style=flat-square" alt="Repository coming soon" />
 </p>
-<p><i>Project preview slot · link to be added later</i></p>
+<p><i>Project preview slot · link to be added later</i></p> -->
 
 </td>
 </tr>
