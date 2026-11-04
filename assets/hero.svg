@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Ujjwal Kaushik, backend developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#03072a"/><stop offset="0.55" stop-color="#0a1a5c"/><stop offset="1" stop-color="#062a55"/>
+      <stop offset="0" stop-color="#111214"/><stop offset="0.55" stop-color="#17181b"/><stop offset="1" stop-color="#22201c"/>
     </linearGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#7fe3ff"/>
     </linearGradient>
     <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#090979"/><stop offset="0.5" stop-color="#2457C5"/><stop offset="1" stop-color="#00D4FF"/>
+      <stop offset="0" stop-color="#6b5738"/><stop offset="0.5" stop-color="#b9955b"/><stop offset="1" stop-color="#e3d1aa"/>
     </linearGradient>
-    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2457C5" stop-opacity="0.75"/><stop offset="1" stop-color="#2457C5" stop-opacity="0"/></radialGradient>
-    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#00D4FF" stop-opacity="0.45"/><stop offset="1" stop-color="#00D4FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#b9955b" stop-opacity="0.75"/><stop offset="1" stop-color="#b9955b" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e3d1aa" stop-opacity="0.45"/><stop offset="1" stop-color="#e3d1aa" stop-opacity="0"/></radialGradient>
   </defs>
   <style>
-    .rise { font: 500 15px 'Fira Code', Consolas, 'Courier New', monospace; fill: #5aa9ff; opacity: 0; animation: rise linear infinite; }
+    .rise { font: 500 15px 'Fira Code', Consolas, 'Courier New', monospace; fill: #cbb58e; opacity: 0; animation: rise linear infinite; }
     @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: .45; } 85% { opacity: .45; } 100% { transform: translateY(-400px); opacity: 0; } }
-    .tag { font: 500 14px 'Fira Code', Consolas, 'Courier New', monospace; fill: #00D4FF; }
+    .tag { font: 500 14px 'Fira Code', Consolas, 'Courier New', monospace; fill: #e3d1aa; }
     .name { font: 800 74px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: url(#name); animation: up 1s ease-out both; }
     @keyframes up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-    .role { font: 500 28px 'Fira Code', Consolas, 'Courier New', monospace; fill: #cfe6ff; opacity: 0; animation: role 12s infinite both; }
+    .role { font: 500 28px 'Fira Code', Consolas, 'Courier New', monospace; fill: #e8e4dc; opacity: 0; animation: role 12s infinite both; }
     @keyframes role { 0% { opacity: 0; transform: translateY(12px); } 4% { opacity: 1; transform: translateY(0); } 22% { opacity: 1; transform: translateY(0); } 26% { opacity: 0; transform: translateY(-12px); } 100% { opacity: 0; } }
     .chip { animation: up .8s ease-out both; }
-    .chiptxt { font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #dbefff; }
+    .chiptxt { font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e8e4dc; }
     .blob1 { animation: drift1 14s ease-in-out infinite alternate; }
     .blob2 { animation: drift2 17s ease-in-out infinite alternate; }
     @keyframes drift1 { to { transform: translate(160px, 40px); } }
@@ -40,16 +40,16 @@
     <text class="rise" x="70" y="360" style="animation-duration:9s;animation-delay:0s">GET /api/users</text><text class="rise" x="210" y="360" style="animation-duration:11s;animation-delay:3s">200 OK</text><text class="rise" x="330" y="360" style="animation-duration:10s;animation-delay:6s">SELECT * FROM</text><text class="rise" x="470" y="360" style="animation-duration:12s;animation-delay:1s">{ }</text><text class="rise" x="610" y="360" style="animation-duration:9.5s;animation-delay:4s">def main():</text><text class="rise" x="760" y="360" style="animation-duration:11s;animation-delay:7s">JWT</text><text class="rise" x="860" y="360" style="animation-duration:10.5s;animation-delay:2s">redis.get()</text><text class="rise" x="990" y="360" style="animation-duration:9s;animation-delay:5s">O(log n)</text><text class="rise" x="1090" y="360" style="animation-duration:12s;animation-delay:8s">docker run</text><text class="rise" x="150" y="360" style="animation-duration:10s;animation-delay:9s">POST /login</text><text class="rise" x="690" y="360" style="animation-duration:11s;animation-delay:10s">&lt;/&gt;</text>
 
     <text x="40" y="52" class="tag">&lt;ujjwal21kaushik /&gt;</text>
-    <circle class="blink" cx="1150" cy="48" r="5" fill="#34d399"/>
-    <text x="1135" y="52" class="tag" text-anchor="end" style="fill:#8fe9c5">online</text>
+    <circle class="blink" cx="1150" cy="48" r="5" fill="#c6a56b"/>
+    <text x="1135" y="52" class="tag" text-anchor="end" style="fill:#d8c39c">online</text>
 
     <text class="name" x="600" y="170" text-anchor="middle">Ujjwal Kaushik</text>
-    <text x="600" y="206" text-anchor="middle" style="font:500 15px 'Fira Code', Consolas, 'Courier New', monospace;fill:#7da2e8;letter-spacing:4px">CS ENGINEERING STUDENT</text>
+    <text x="600" y="206" text-anchor="middle" style="font:500 15px 'Fira Code', Consolas, 'Courier New', monospace;fill:#b7aa91;letter-spacing:4px">CS ENGINEERING STUDENT</text>
     <text class="role" x="600" y="232" text-anchor="middle" style="animation-delay:0s">Backend Developer</text><text class="role" x="600" y="232" text-anchor="middle" style="animation-delay:3s">Python  ·  FastAPI  ·  Flask  ·  Django</text><text class="role" x="600" y="232" text-anchor="middle" style="animation-delay:6s">Java  ·  Data Structures &amp; Algorithms</text><text class="role" x="600" y="232" text-anchor="middle" style="animation-delay:9s">React  ·  Tailwind  ·  JavaScript</text>
-    <g class="chip" style="animation-delay:0.6s"><rect x="330" y="270" width="110" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#00D4FF" stroke-opacity="0.45"/><text x="385.0" y="291" text-anchor="middle" class="chiptxt">REST APIs</text></g><g class="chip" style="animation-delay:0.75s"><rect x="470" y="270" width="150" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#00D4FF" stroke-opacity="0.45"/><text x="545.0" y="291" text-anchor="middle" class="chiptxt">Auth &amp; Security</text></g><g class="chip" style="animation-delay:0.8999999999999999s"><rect x="650" y="270" width="120" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#00D4FF" stroke-opacity="0.45"/><text x="710.0" y="291" text-anchor="middle" class="chiptxt">Databases</text></g><g class="chip" style="animation-delay:1.0499999999999998s"><rect x="800" y="270" width="120" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#00D4FF" stroke-opacity="0.45"/><text x="860.0" y="291" text-anchor="middle" class="chiptxt">Automation</text></g>
+    <g class="chip" style="animation-delay:0.6s"><rect x="330" y="270" width="110" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#e3d1aa" stroke-opacity="0.45"/><text x="385.0" y="291" text-anchor="middle" class="chiptxt">REST APIs</text></g><g class="chip" style="animation-delay:0.75s"><rect x="470" y="270" width="150" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#e3d1aa" stroke-opacity="0.45"/><text x="545.0" y="291" text-anchor="middle" class="chiptxt">Auth &amp; Security</text></g><g class="chip" style="animation-delay:0.8999999999999999s"><rect x="650" y="270" width="120" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#e3d1aa" stroke-opacity="0.45"/><text x="710.0" y="291" text-anchor="middle" class="chiptxt">Databases</text></g><g class="chip" style="animation-delay:1.0499999999999998s"><rect x="800" y="270" width="120" height="32" rx="16" fill="#ffffff" fill-opacity="0.07" stroke="#e3d1aa" stroke-opacity="0.45"/><text x="860.0" y="291" text-anchor="middle" class="chiptxt">Automation</text></g>
 
     <g opacity="0.9">
-      <path class="w2" d="M0 322 Q150 300 300 322 T600 322 T900 322 T1200 322 T1500 322 T1800 322 L1800 340 L0 340 Z" fill="#2457C5" opacity="0.45"/>
+      <path class="w2" d="M0 322 Q150 300 300 322 T600 322 T900 322 T1200 322 T1500 322 T1800 322 L1800 340 L0 340 Z" fill="#b9955b" opacity="0.45"/>
       <path class="w1" d="M0 330 Q150 312 300 330 T600 330 T900 330 T1200 330 T1500 330 T1800 330 L1800 340 L0 340 Z" fill="url(#wave)"/>
     </g>
   </g>
