@@ -172,10 +172,9 @@ Computer Science engineering student who enjoys **building backend systems**, **
   </a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <sub>Problem-solving practice with a focus on Data Structures and Algorithms in Java.</sub>
-</p>
----
+</p> -->
 
 ## 📈 GitHub Dashboard
 
