@@ -1,50 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-viewBox="0 0 630 510" width="630" height="510"
-role="img" aria-label="GitHub statistics for Ujjwal21kaushik">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 430" width="560" height="430" role="img" aria-label="GitHub statistics for Ujjwal21kaushik">
 <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#10131c"/>
-        <stop offset="1" stop-color="#171c29"/>
-    </linearGradient>
-
-    <linearGradient id="edge">
-        <stop offset="0" stop-color="#a78bfa"/>
-        <stop offset="1" stop-color="#38bdf8"/>
-    </linearGradient>
-
-    <linearGradient id="bar">
-        <stop offset="0" stop-color="#a78bfa"/>
-        <stop offset="1" stop-color="#38bdf8"/>
-    </linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111214"/><stop offset="1" stop-color="#17181b"/></linearGradient>
+<linearGradient id="bar"><stop offset="0" stop-color="#b9955b"/><stop offset="1" stop-color="#e3d1aa"/></linearGradient>
 </defs>
-
 <style>
-    .title { font:700 21px Arial,sans-serif; fill:#fff }
-    .user { font:500 12px monospace; fill:#9ca3b4 }
-    .label { font:600 10px Arial,sans-serif; letter-spacing:1px; fill:#9ca3b4 }
-    .value { font:700 21px Arial,sans-serif; fill:#fff }
-    .section { font:700 13px Arial,sans-serif; fill:#e5e7eb }
-    .lang { font:600 11px Arial,sans-serif; fill:#e5e7eb }
-    .small { font:500 10px monospace; fill:#9ca3b4 }
+.title{font:700 19px Arial,sans-serif;fill:#f4f1e9}.user{font:500 10px monospace;fill:#a9a49a}
+.label{font:600 9px Arial,sans-serif;letter-spacing:.8px;fill:#aaa69d}.value{font:700 19px Arial,sans-serif;fill:#f5f2eb}
+.section{font:700 11px Arial,sans-serif;letter-spacing:.6px;fill:#e5dfd2}.lang{font:600 10px Arial,sans-serif;fill:#e8e4dc}
+.small{font:500 9px monospace;fill:#aaa69d}
 </style>
-
-<rect x="1" y="1" width="628" height="508"
-rx="18" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
-
-<text x="30" y="39" class="title">GitHub Dashboard</text>
-<text x="600" y="38" text-anchor="end" class="user">@Ujjwal21kaushik</text>
-
-<g><rect x="30" y="94" width="170" height="58" rx="10" fill="#171b27" stroke="#303849"/><text x="44" y="115" class="label">PUBLIC REPOS</text><text x="44" y="139" class="value">10</text></g><g><rect x="230" y="94" width="170" height="58" rx="10" fill="#171b27" stroke="#303849"/><text x="244" y="115" class="label">STARS</text><text x="244" y="139" class="value">0</text></g><g><rect x="430" y="94" width="170" height="58" rx="10" fill="#171b27" stroke="#303849"/><text x="444" y="115" class="label">FORKS</text><text x="444" y="139" class="value">0</text></g><g><rect x="30" y="170" width="170" height="58" rx="10" fill="#171b27" stroke="#303849"/><text x="44" y="191" class="label">FOLLOWERS</text><text x="44" y="215" class="value">2</text></g><g><rect x="230" y="170" width="170" height="58" rx="10" fill="#171b27" stroke="#303849"/><text x="244" y="191" class="label">PULL REQUESTS</text><text x="244" y="215" class="value">10</text></g><g><rect x="430" y="170" width="170" height="58" rx="10" fill="#171b27" stroke="#303849"/><text x="444" y="191" class="label">ISSUES</text><text x="444" y="215" class="value">1</text></g>
-
-<text x="30" y="285" class="section">
-    TOP LANGUAGES ACROSS PUBLIC REPOSITORIES
-</text>
-
-<text x="32" y="325" class="lang">Python</text><rect x="150" y="314" width="300" height="8" rx="4" fill="#292f3d"/><rect x="150" y="314" width="187.5" height="8" rx="4" fill="url(#bar)"/><text x="475" y="325" class="small">5 repos</text><text x="32" y="360" class="lang">JavaScript</text><rect x="150" y="349" width="300" height="8" rx="4" fill="#292f3d"/><rect x="150" y="349" width="75.0" height="8" rx="4" fill="url(#bar)"/><text x="475" y="360" class="small">2 repos</text><text x="32" y="395" class="lang">Java</text><rect x="150" y="384" width="300" height="8" rx="4" fill="#292f3d"/><rect x="150" y="384" width="37.5" height="8" rx="4" fill="url(#bar)"/><text x="475" y="395" class="small">1 repos</text>
-
-<text x="30" y="490" class="small">
-    Live snapshot · GitHub API · updated by GitHub Actions
-</text>
-
+<rect x="1" y="1" width="558" height="428" rx="15" fill="url(#bg)" stroke="#38352f" stroke-width="1.2"/>
+<text x="24" y="38" class="title">GitHub Overview</text><text x="536" y="37" text-anchor="end" class="user">@Ujjwal21kaushik</text>
+<g><rect x="24" y="76" width="152" height="50" rx="9" fill="#191a1d" stroke="#34353a"/><text x="36" y="95" class="label">PUBLIC REPOS</text><text x="36" y="117" class="value">10</text></g><g><rect x="204" y="76" width="152" height="50" rx="9" fill="#191a1d" stroke="#34353a"/><text x="216" y="95" class="label">STARS</text><text x="216" y="117" class="value">0</text></g><g><rect x="384" y="76" width="152" height="50" rx="9" fill="#191a1d" stroke="#34353a"/><text x="396" y="95" class="label">FORKS</text><text x="396" y="117" class="value">0</text></g><g><rect x="24" y="138" width="152" height="50" rx="9" fill="#191a1d" stroke="#34353a"/><text x="36" y="157" class="label">FOLLOWERS</text><text x="36" y="179" class="value">2</text></g><g><rect x="204" y="138" width="152" height="50" rx="9" fill="#191a1d" stroke="#34353a"/><text x="216" y="157" class="label">PULL REQUESTS</text><text x="216" y="179" class="value">10</text></g><g><rect x="384" y="138" width="152" height="50" rx="9" fill="#191a1d" stroke="#34353a"/><text x="396" y="157" class="label">ISSUES</text><text x="396" y="179" class="value">1</text></g>
+<text x="24" y="232" class="section">TOP LANGUAGES</text>
+<text x="26" y="270" class="lang">Python</text><rect x="140" y="261" width="260" height="6" rx="3" fill="#303136"/><rect x="140" y="261" width="162.5" height="6" rx="3" fill="url(#bar)"/><text x="420" y="270" class="small">5 repos</text><text x="26" y="294" class="lang">JavaScript</text><rect x="140" y="285" width="260" height="6" rx="3" fill="#303136"/><rect x="140" y="285" width="65.0" height="6" rx="3" fill="url(#bar)"/><text x="420" y="294" class="small">2 repos</text><text x="26" y="318" class="lang">Java</text><rect x="140" y="309" width="260" height="6" rx="3" fill="#303136"/><rect x="140" y="309" width="32.5" height="6" rx="3" fill="url(#bar)"/><text x="420" y="318" class="small">1 repos</text>
+<text x="24" y="407" class="small">Live snapshot · GitHub API · updated by GitHub Actions</text>
 </svg>
