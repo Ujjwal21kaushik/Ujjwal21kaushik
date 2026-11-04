@@ -7,7 +7,7 @@
 -->
 
 <p align="center">
-  <img src="assets/hero.svg" alt="Ujjwal Kaushik - Backend Developer" width="100%" />
+  <img src="hero.svg" alt="Ujjwal Kaushik - Backend Developer" width="100%" />
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/terminal.svg" alt="Animated terminal introducing Ujjwal Kaushik" width="100%" />
+  <img src="terminal.svg" alt="Animated terminal introducing Ujjwal Kaushik" width="100%" />
 </p>
 
 ---
@@ -86,7 +86,7 @@ Computer Science engineering student who enjoys **building backend systems**, **
 ## 🔄 How I Think About Backends
 
 <p align="center">
-  <img src="assets/backend-flow.svg" alt="Animated request lifecycle: client, API, auth, cache, database and back" width="100%" />
+  <img src="backend-flow.svg" alt="Animated request lifecycle: client, API, auth, cache, database and back" width="100%" />
 </p>
 
 <p align="center">
@@ -155,7 +155,7 @@ Experimenting with a gateway and location-aware edge servers.
 
 <p align="center">
   <a href="https://leetcode.com/u/ueMXf7R1D6/">
-    <img src="assets/leetcode-card.svg" alt="LeetCode statistics: problems solved, difficulty breakdown, rank and streak" width="75%" />
+    <img src="leetcode-card.svg" alt="LeetCode statistics: problems solved, difficulty breakdown, rank and streak" width="75%" />
   </a>
 </p>
 
