@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" width="620" height="250" role="img" aria-label="LeetCode statistics for ueMXf7R1D6">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070d2e"/><stop offset="1" stop-color="#0b1b52"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D4FF"/><stop offset="1" stop-color="#2457C5"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D4FF"/><stop offset="0.5" stop-color="#2457C5"/><stop offset="1" stop-color="#090979"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font: 700 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #FFA116; }
+    .u { font: 500 13px 'Fira Code', Consolas, monospace; fill: #8fa6d6; }
+    .big { font: 800 36px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #fff; }
+    .sub { font: 500 12px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #8fa6d6; }
+    .lbl { font: 600 14px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
+    .cnt { font: 500 13px 'Fira Code', Consolas, monospace; fill: #dbe6ff; }
+    .k { font: 500 11px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #8fa6d6; text-transform: uppercase; letter-spacing: 1px; }
+    .v { font: 700 17px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #fff; }
+    .note { font: 400 10px 'Fira Code', Consolas, monospace; fill: #5f77b0; }
+    .glow { animation: pulse 3s ease-in-out infinite; transform-origin: 110px 128px; }
+    @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: .8; } }
+  </style>
+
+  <rect x="1" y="1" width="618" height="248" rx="18" fill="url(#card)" stroke="url(#edge)" stroke-width="1.5"/>
+
+  <text x="28" y="42" class="t">LeetCode</text>
+  <text x="592" y="41" class="u" text-anchor="end">@ueMXf7R1D6</text>
+
+  <!-- ring -->
+  <circle class="glow" cx="110" cy="128" r="70" fill="none" stroke="#00D4FF" stroke-width="1" stroke-dasharray="2 8"/>
+  <circle cx="110" cy="128" r="56" fill="none" stroke="#16245a" stroke-width="10"/>
+<circle cx="110" cy="128" r="56" fill="none" stroke="url(#ring)" stroke-width="10" stroke-linecap="round" stroke-dasharray="351.86" stroke-dashoffset="351.86" transform="rotate(-90 110 128)"><animate attributeName="stroke-dashoffset" from="351.86" to="351.86" dur="1.6s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></circle>
+  <text x="110" y="133" class="big" text-anchor="middle">—</text>
+  <text x="110" y="152" class="sub" text-anchor="middle">waiting for sync</text>
+
+  <text x="214" y="92" class="lbl" fill="#00B8A3">Easy</text>
+  <text x="586" y="92" class="cnt" text-anchor="end">—</text>
+  <rect x="214" y="101" width="372" height="8" rx="4" fill="#16245a"/>
+  <rect x="214" y="101" width="0" height="8" rx="4" fill="#00B8A3">
+    <animate attributeName="width" from="0" to="0.0" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <text x="214" y="128" class="lbl" fill="#FFC01E">Medium</text>
+  <text x="586" y="128" class="cnt" text-anchor="end">—</text>
+  <rect x="214" y="137" width="372" height="8" rx="4" fill="#16245a"/>
+  <rect x="214" y="137" width="0" height="8" rx="4" fill="#FFC01E">
+    <animate attributeName="width" from="0" to="0.0" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+  <text x="214" y="164" class="lbl" fill="#EF4743">Hard</text>
+  <text x="586" y="164" class="cnt" text-anchor="end">—</text>
+  <rect x="214" y="173" width="372" height="8" rx="4" fill="#16245a"/>
+  <rect x="214" y="173" width="0" height="8" rx="4" fill="#EF4743">
+    <animate attributeName="width" from="0" to="0.0" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+  </rect>
+
+  <line x1="28" y1="190" x2="592" y2="190" stroke="#1d2f6e"/>
+  <text x="28" y="208" class="k">Global rank</text>
+  <text x="28" y="230" class="v">—</text>
+  <text x="214" y="208" class="k">Current streak</text>
+  <text x="214" y="230" class="v">—</text>
+  <text x="380" y="208" class="k">Active days</text>
+  <text x="380" y="230" class="v">—</text>
+  <text x="592" y="244" class="note" text-anchor="end">run the “Update LeetCode card” workflow once</text>
+</svg>
