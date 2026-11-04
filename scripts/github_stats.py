@@ -58,7 +58,7 @@ def render(stats):
 <rect x="1" y="1" width="628" height="408" rx="18" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
 <text x="30" y="39" class="title">GitHub Dashboard</text><text x="600" y="38" text-anchor="end" class="user">@{escape(USERNAME)}</text>
 {''.join(cells)}
-<text x="30" y="240" class="section">TOP LANGUAGES ACROSS PUBLIC REPOSITORIES</text>
+<text x="30" y="280" class="section">TOP LANGUAGES ACROSS PUBLIC REPOSITORIES</text>
 {''.join(bars)}
 <text x="30" y="385" class="small">Live snapshot · GitHub API · updated by GitHub Actions</text></svg>"""
 
