@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 180" width="630" height="180" role="img" aria-label="GitHub dashboard waiting for first sync">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080f30"/><stop offset="1" stop-color="#10265d"/></linearGradient><linearGradient id="e"><stop stop-color="#00d4ff"/><stop offset="1" stop-color="#345bdb"/></linearGradient></defs>
+<rect x="1" y="1" width="628" height="178" rx="18" fill="url(#b)" stroke="url(#e)" stroke-width="1.5"/>
+<text x="30" y="54" fill="#fff" font-family="Arial" font-size="22" font-weight="700">GitHub Dashboard</text>
+<text x="30" y="91" fill="#91a8dc" font-family="Arial" font-size="14">Waiting for the first GitHub Actions sync</text>
+<text x="30" y="125" fill="#91a8dc" font-family="Arial" font-size="12">Open Actions → Update profile cards → Run workflow</text></svg>
