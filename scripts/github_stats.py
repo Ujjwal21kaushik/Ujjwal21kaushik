@@ -65,7 +65,7 @@ def render(stats):
     bars = []
 
     for i, (lang, count) in enumerate(langs):
-        y = 325 + i * 35
+        y = 325 + i * 30
         width = 300 * count / total
 
         bars.append(
