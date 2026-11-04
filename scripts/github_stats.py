@@ -52,7 +52,7 @@ def render(stats):
         cells.append(
             f'<g>'
             f'<rect x="{x}" y="{y}" width="170" height="58" '
-            f'rx="10" fill="#101f50" stroke="#243b7b"/>'
+            f'rx="10" fill="#171b27" stroke="#303849"/>'
             f'<text x="{x+14}" y="{y+21}" class="label">{escape(label)}</text>'
             f'<text x="{x+14}" y="{y+45}" class="value">{value:,}</text>'
             f'</g>'
@@ -71,7 +71,7 @@ def render(stats):
         bars.append(
             f'<text x="32" y="{y}" class="lang">{escape(lang)}</text>'
             f'<rect x="150" y="{y-11}" width="300" height="8" '
-            f'rx="4" fill="#1b2b61"/>'
+            f'rx="4" fill="#292f3d"/>'
             f'<rect x="150" y="{y-11}" width="{width:.1f}" height="8" '
             f'rx="4" fill="url(#bar)"/>'
             f'<text x="475" y="{y}" class="small">{count} repos</text>'
@@ -90,29 +90,29 @@ role="img" aria-label="GitHub statistics for {escape(USERNAME)}">
 
 <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#080f30"/>
-        <stop offset="1" stop-color="#10265d"/>
+        <stop offset="0" stop-color="#10131c"/>
+        <stop offset="1" stop-color="#171c29"/>
     </linearGradient>
 
     <linearGradient id="edge">
-        <stop offset="0" stop-color="#00d4ff"/>
-        <stop offset="1" stop-color="#345bdb"/>
+        <stop offset="0" stop-color="#a78bfa"/>
+        <stop offset="1" stop-color="#38bdf8"/>
     </linearGradient>
 
     <linearGradient id="bar">
-        <stop offset="0" stop-color="#00d4ff"/>
-        <stop offset="1" stop-color="#4263eb"/>
+        <stop offset="0" stop-color="#a78bfa"/>
+        <stop offset="1" stop-color="#38bdf8"/>
     </linearGradient>
 </defs>
 
 <style>
     .title {{ font:700 21px Arial,sans-serif; fill:#fff }}
-    .user {{ font:500 12px monospace; fill:#91a8dc }}
-    .label {{ font:600 10px Arial,sans-serif; letter-spacing:1px; fill:#91a8dc }}
+    .user {{ font:500 12px monospace; fill:#9ca3b4 }}
+    .label {{ font:600 10px Arial,sans-serif; letter-spacing:1px; fill:#9ca3b4 }}
     .value {{ font:700 21px Arial,sans-serif; fill:#fff }}
-    .section {{ font:700 13px Arial,sans-serif; fill:#dce8ff }}
-    .lang {{ font:600 11px Arial,sans-serif; fill:#dce8ff }}
-    .small {{ font:500 10px monospace; fill:#91a8dc }}
+    .section {{ font:700 13px Arial,sans-serif; fill:#e5e7eb }}
+    .lang {{ font:600 11px Arial,sans-serif; fill:#e5e7eb }}
+    .small {{ font:500 10px monospace; fill:#9ca3b4 }}
 </style>
 
 <rect x="1" y="1" width="628" height="508"
