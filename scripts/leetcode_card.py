@@ -99,7 +99,7 @@ def render(data, username=USERNAME):
     off_end = circ * (1 - frac)
     max_solved = max([solved.get(k, 0) for k in ("Easy", "Medium", "Hard")] + [1])
 
-    rows = [("Easy", "#00B8A3", 92), ("Medium", "#FFC01E", 128), ("Hard", "#EF4743", 164)]
+    rows = [("Easy", "#b9955b", 92), ("Medium", "#d6bd91", 128), ("Hard", "#8f7650", 164)]
     bars = []
     bar_w = 372
     for label, color, y in rows:
@@ -112,7 +112,7 @@ def render(data, username=USERNAME):
         bars.append(f"""
   <text x="214" y="{y}" class="lbl" fill="{color}">{label}</text>
   <text x="586" y="{y}" class="cnt" text-anchor="end">{count}</text>
-  <rect x="214" y="{y + 9}" width="{bar_w}" height="8" rx="4" fill="#16245a"/>
+  <rect x="214" y="{y + 9}" width="{bar_w}" height="8" rx="4" fill="#303136"/>
   <rect x="214" y="{y + 9}" width="0" height="8" rx="4" fill="{color}">
     <animate attributeName="width" from="0" to="{w:.1f}" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>""")
@@ -133,7 +133,7 @@ def render(data, username=USERNAME):
     )
 
     if no_totals:
-        colors = {"Easy": "#00B8A3", "Medium": "#FFC01E", "Hard": "#EF4743"}
+        colors = {"Easy": "#b9955b", "Medium": "#d6bd91", "Hard": "#8f7650"}
         parts, start = [], 0.0
         sum_ = sum(solved.get(k, 0) for k in colors) or 1
         for k, c in colors.items():
@@ -159,25 +159,25 @@ def render(data, username=USERNAME):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" width="620" height="250" role="img" aria-label="LeetCode statistics for {name}">
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070d2e"/><stop offset="1" stop-color="#0b1b52"/>
+      <stop offset="0" stop-color="#111214"/><stop offset="1" stop-color="#17181b"/>
     </linearGradient>
     <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#00D4FF"/><stop offset="1" stop-color="#2457C5"/>
+      <stop offset="0" stop-color="#e3d1aa"/><stop offset="1" stop-color="#b9955b"/>
     </linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00D4FF"/><stop offset="0.5" stop-color="#2457C5"/><stop offset="1" stop-color="#090979"/>
+      <stop offset="0" stop-color="#e3d1aa"/><stop offset="0.5" stop-color="#b9955b"/><stop offset="1" stop-color="#6b5738"/>
     </linearGradient>
   </defs>
   <style>
-    .t {{ font: 700 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #FFA116; }}
-    .u {{ font: 500 13px 'Fira Code', Consolas, monospace; fill: #8fa6d6; }}
+    .t {{ font: 700 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e3d1aa; }}
+    .u {{ font: 500 13px 'Fira Code', Consolas, monospace; fill: #aaa69d; }}
     .big {{ font: 800 36px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #fff; }}
-    .sub {{ font: 500 12px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #8fa6d6; }}
+    .sub {{ font: 500 12px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #aaa69d; }}
     .lbl {{ font: 600 14px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }}
     .cnt {{ font: 500 13px 'Fira Code', Consolas, monospace; fill: #dbe6ff; }}
-    .k {{ font: 500 11px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #8fa6d6; text-transform: uppercase; letter-spacing: 1px; }}
+    .k {{ font: 500 11px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #aaa69d; text-transform: uppercase; letter-spacing: 1px; }}
     .v {{ font: 700 17px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #fff; }}
-    .note {{ font: 400 10px 'Fira Code', Consolas, monospace; fill: #5f77b0; }}
+    .note {{ font: 400 10px 'Fira Code', Consolas, monospace; fill: #aaa69d; }}
     .glow {{ animation: pulse 3s ease-in-out infinite; transform-origin: 110px 128px; }}
     @keyframes pulse {{ 0%,100% {{ opacity: .35; }} 50% {{ opacity: .8; }} }}
   </style>
@@ -188,14 +188,14 @@ def render(data, username=USERNAME):
   <text x="592" y="41" class="u" text-anchor="end">@{name}</text>
 
   <!-- ring -->
-  <circle class="glow" cx="110" cy="128" r="70" fill="none" stroke="#00D4FF" stroke-width="1" stroke-dasharray="2 8"/>
-  <circle cx="110" cy="128" r="{r}" fill="none" stroke="#16245a" stroke-width="10"/>
+  <circle class="glow" cx="110" cy="128" r="70" fill="none" stroke="#e3d1aa" stroke-width="1" stroke-dasharray="2 8"/>
+  <circle cx="110" cy="128" r="{r}" fill="none" stroke="#303136" stroke-width="10"/>
 {ring_svg}
   <text x="110" y="133" class="big" text-anchor="middle">{big}</text>
   <text x="110" y="152" class="sub" text-anchor="middle">{sub}</text>
 {''.join(bars)}
 
-  <line x1="28" y1="190" x2="592" y2="190" stroke="#1d2f6e"/>
+  <line x1="28" y1="190" x2="592" y2="190" stroke="#38352f"/>
   <text x="28" y="208" class="k">Global rank</text>
   <text x="28" y="230" class="v">{rank}</text>
   <text x="214" y="208" class="k">Current streak</text>
