@@ -181,7 +181,7 @@ Computer Science engineering student who enjoys **building backend systems**, **
 
 <p align="center">
   <a href="https://github.com/Ujjwal21kaushik">
-    <img src="assets/github-stats.svg" alt="GitHub profile statistics for Ujjwal Kaushik" width="95%" />
+    <img src="assets/github-stats.svg" alt="GitHub profile statistics for Ujjwal Kaushik" width="85%" />
   </a>
 </p>
 
