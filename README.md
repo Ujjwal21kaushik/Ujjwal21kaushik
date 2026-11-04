@@ -18,9 +18,9 @@
   <img src="https://komarev.com/ghpvc/?username=Ujjwal21kaushik&style=for-the-badge&color=2457C5&label=PROFILE%20VIEWS" alt="Profile views" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/terminal.svg" alt="Animated terminal introducing Ujjwal Kaushik" width="100%" />
-</p>
+</p> -->
 
 ---
 
