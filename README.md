@@ -1,3 +1,175 @@
+<!--
+  GitHub Profile README for Ujjwal21kaushik
+  Repository name must be exactly: Ujjwal21kaushik
+  Animations in /assets are self-hosted SVGs, so they never depend on third-party servers.
+  The LeetCode and GitHub stats cards are rebuilt every 6 hours by .github/workflows/leetcode.yml.
+-->
+
+<p align="center">
+  <img src="assets/hero.svg" alt="Ujjwal Kaushik - Backend Developer" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/ueMXf7R1D6/"><img src="https://img.shields.io/badge/LeetCode-View%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
+  <a href="mailto:ujjwalkaus21@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/Ujjwal21kaushik"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Ujjwal21kaushik&style=for-the-badge&color=2457C5&label=PROFILE%20VIEWS" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img src="assets/terminal.svg" alt="Animated terminal introducing Ujjwal Kaushik" width="100%" />
+</p>
+
+---
+
+## 🚀 At a Glance
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 👨‍💻 Who I am
+Computer Science engineering student who enjoys **building backend systems**, **solving DSA problems** and shipping practical projects.
+
+**I learn by building, debugging and improving, one step at a time.**
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 What I'm focused on
+| | |
+|---|---|
+| 🐍 | **Python backend** and REST APIs |
+| ☕ | **DSA in Java** |
+| 🔐 | Auth, databases, caching, API security |
+| ⚛️ | React, Tailwind CSS, JavaScript |
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⚡ Tech Stack
+
+<table>
+<tr>
+<td align="center" width="22%"><b>💻 Languages</b></td>
+<td>
+  <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css&theme=dark" alt="Python, Java, JavaScript, HTML, CSS" />
+</td>
+</tr>
+<tr>
+<td align="center"><b>🧩 Backend &amp; Frameworks</b></td>
+<td>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,django,nodejs,express,react,tailwind&theme=dark" alt="FastAPI, Flask, Django, Node.js, Express, React, Tailwind CSS" />
+</td>
+</tr>
+<tr>
+<td align="center"><b>🗄️ Databases</b></td>
+<td>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis&theme=dark" alt="PostgreSQL, MongoDB, MySQL, Redis" />
+</td>
+</tr>
+<tr>
+<td align="center"><b>🛠️ Tools &amp; Deploy</b></td>
+<td>
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,docker,cloudflare&theme=dark" alt="Git, GitHub, Postman, VS Code, Docker, Cloudflare" />
+</td>
+</tr>
+</table>
+
+---
+
+## 🔄 How I Think About Backends
+
+<p align="center">
+  <img src="assets/backend-flow.svg" alt="Animated request lifecycle: client, API, auth, cache, database and back" width="100%" />
+</p>
+
+<p align="center">
+  <sub>Every request is validated, authenticated, served from cache when possible, and only then sent to the database.</sub>
+</p>
+
+---
+
+## 🛠️ Projects & Things I Explore
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 WhatsApp FAQ Automation
+Webhook-based bot that answers customer questions automatically.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
+![AI](https://img.shields.io/badge/AI%20fallback-2457C5?style=flat-square)
+
+`webhooks` · `fuzzy matching` · `AI fallback`
+
+</td>
+<td width="50%" valign="top">
+
+### 🏢 Business Listing Platform
+Searchable directory with business listings and membership flows.
+
+![Backend](https://img.shields.io/badge/REST%20API-009688?style=flat-square)
+![Database](https://img.shields.io/badge/Database-336791?style=flat-square&logo=postgresql&logoColor=white)
+
+`search` · `listings` · `memberships`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 Data Dashboard
+Upload spreadsheets and visualise call or lead statuses at a glance.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Charts](https://img.shields.io/badge/Charts-00D4FF?style=flat-square&logoColor=black)
+
+`file upload` · `data viz` · `status tracking`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 Mini CDN Concepts
+Experimenting with a gateway and location-aware edge servers.
+
+![Networking](https://img.shields.io/badge/Gateway-090979?style=flat-square)
+![Edge](https://img.shields.io/badge/Edge%20servers-2457C5?style=flat-square)
+
+`routing` · `edge` · `caching`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧠 LeetCode & Problem Solving
+
+<p align="center">
+  <a href="https://leetcode.com/u/ueMXf7R1D6/">
+    <img src="assets/leetcode-card.svg" alt="LeetCode statistics: problems solved, difficulty breakdown, rank and streak" width="75%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/ueMXf7R1D6/"><img src="https://img.shields.io/badge/LeetCode-ueMXf7R1D6-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="Open LeetCode profile" /></a>
+  <img src="https://img.shields.io/badge/Focus-DSA%20with%20Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="DSA with Java" />
+  <img src="https://img.shields.io/badge/Practice-Consistency-2EA44F?style=flat-square" alt="Consistent practice" />
+</p>
+
+<p align="center">
+  <sub>This card is generated by my own GitHub Action straight from LeetCode, so it keeps working without any third-party card service.</sub>
+</p>
+
+---
+
 ## 📈 GitHub Dashboard
 
 <p align="center">
@@ -9,3 +181,19 @@
 </p>
 
 ---
+
+## 🤝 Let's Connect
+
+<p align="center">
+  <i>“Small progress every day adds up to big results.”</i>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/ueMXf7R1D6/"><img src="https://img.shields.io/badge/LeetCode-Solve%20with%20me-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="mailto:ujjwalkaus21@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090979,50:2457C5,100:00D4FF&height=105&section=footer" alt="Blue wave footer" width="100%" />
+</p>
