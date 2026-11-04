@@ -18,9 +18,9 @@
   <img src="https://komarev.com/ghpvc/?username=Ujjwal21kaushik&style=for-the-badge&color=2457C5&label=PROFILE%20VIEWS" alt="Profile views" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/terminal.svg" alt="Animated terminal introducing Ujjwal Kaushik" width="100%" />
-</p>
+</p> -->
 
 ---
 
@@ -185,9 +185,6 @@ Computer Science engineering student who enjoys **building backend systems**, **
   </a>
 </p>
 
-<p align="center">
-  <sub>Generated from GitHub's API by my own GitHub Actions workflow.</sub>
-</p>
 ---
 
 ## 🤝 Let's Connect
