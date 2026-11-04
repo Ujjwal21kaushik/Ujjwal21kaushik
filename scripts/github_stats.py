@@ -123,9 +123,9 @@ rx="18" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
 
 {''.join(cells)}
 
-<text x="30" y="285" class="section">
-    TOP LANGUAGES ACROSS PUBLIC REPOSITORIES
-</text>
+# <text x="30" y="285" class="section">
+#     TOP LANGUAGES ACROSS PUBLIC REPOSITORIES
+# </text>
 
 {''.join(bars)}
 
