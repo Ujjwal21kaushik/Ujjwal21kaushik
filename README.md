@@ -96,57 +96,62 @@ Computer Science engineering student who enjoys **building backend systems**, **
 ---
 
 ## 🚀 Featured Projects
-  
+
+<p align="center">
+  <i>A selection of projects where I turn concepts into working software.</i>
+</p>
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 CampusPramaan
-
-**Multi-Layer Campus Attendance System**
-
-A Django-based attendance system combining face recognition and location-based verification to help validate on-campus attendance.
-
-**Tech Stack:** Python · Django · Face Recognition · GeoPy · SQLite
-
-[View Repository →](https://github.com/Ujjwal21kaushik/CampusPramaan)
+<h3>🔐 CampusPramaan</h3>
+<p><b>Multi-Layer Campus Attendance System</b></p>
+<p>A Django-based attendance prototype that combines face recognition with location-based verification for on-campus attendance.</p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Face_Recognition-6C63FF?style=flat-square" alt="Face Recognition" />
+  <img src="https://img.shields.io/badge/GeoPy-2E8B57?style=flat-square" alt="GeoPy" />
+</p>
+<p><a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><b>Explore repository →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
 
-### 📦 StockDrishti
-
-**Inventory Management System**
-
-An inventory management project designed to manage stock and streamline inventory operations.
-
-**Tech Stack:** Python
-
-[View Repository →](https://github.com/Ujjwal21kaushik/StockDrishti)
+<h3>📦 StockDrishti</h3>
+<p><b>Inventory Management System</b></p>
+<p>A Python project focused on inventory management and stock operations.</p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+<p><a href="https://github.com/Ujjwal21kaushik/StockDrishti"><b>Explore repository →</b></a></p>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 CDN Project
-
-**Location-Aware Content Delivery Network**
-
-A mini CDN exploring gateway-based routing and location-aware edge server selection for efficient content delivery.
-
-**Tech Stack:** Python · FastAPI · Networking
-
-[View Repository →](https://github.com/Ujjwal21kaushik/cdn_project)
+<h3>🌐 CDN Project</h3>
+<p><b>Location-Aware Content Delivery Network</b></p>
+<p>A mini CDN exploring gateway-based routing and location-aware edge-server selection.</p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Networking-4169E1?style=flat-square" alt="Networking" />
+</p>
+<p><a href="https://github.com/Ujjwal21kaushik/cdn_project"><b>Explore repository →</b></a></p>
 
 </td>
 <td width="50%" valign="top">
 
-<!-- FUTURE PROJECT SLOT
-### 🏢 Business Listing Platform
-
-Add description, tech stack and repository link here when published.
--->
+<h3>🏢 Business Listing Platform</h3>
+<p><b>Coming soon to GitHub</b></p>
+<p>A Justdial-style business discovery platform. The public repository link will be added once the project is published.</p>
+<p>
+  <img src="https://img.shields.io/badge/Repository-Coming_Soon-64748b?style=flat-square" alt="Repository coming soon" />
+</p>
+<p><i>Project preview slot · link to be added later</i></p>
 
 </td>
 </tr>
