@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" width="620" height="250" role="img" aria-label="LeetCode statistics for ueMXf7R1D6">
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070d2e"/><stop offset="1" stop-color="#0b1b52"/>
+      <stop offset="0" stop-color="#111214"/><stop offset="1" stop-color="#17181b"/>
     </linearGradient>
     <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#00D4FF"/><stop offset="1" stop-color="#2457C5"/>
+      <stop offset="0" stop-color="#e3d1aa"/><stop offset="1" stop-color="#b9955b"/>
     </linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00D4FF"/><stop offset="0.5" stop-color="#2457C5"/><stop offset="1" stop-color="#090979"/>
+      <stop offset="0" stop-color="#e3d1aa"/><stop offset="0.5" stop-color="#b9955b"/><stop offset="1" stop-color="#6b5738"/>
     </linearGradient>
   </defs>
   <style>
-    .t { font: 700 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #FFA116; }
-    .u { font: 500 13px 'Fira Code', Consolas, monospace; fill: #8fa6d6; }
+    .t { font: 700 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e3d1aa; }
+    .u { font: 500 13px 'Fira Code', Consolas, monospace; fill: #aaa69d; }
     .big { font: 800 36px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #fff; }
-    .sub { font: 500 12px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #8fa6d6; }
+    .sub { font: 500 12px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #aaa69d; }
     .lbl { font: 600 14px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
     .cnt { font: 500 13px 'Fira Code', Consolas, monospace; fill: #dbe6ff; }
-    .k { font: 500 11px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #8fa6d6; text-transform: uppercase; letter-spacing: 1px; }
+    .k { font: 500 11px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #aaa69d; text-transform: uppercase; letter-spacing: 1px; }
     .v { font: 700 17px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #fff; }
-    .note { font: 400 10px 'Fira Code', Consolas, monospace; fill: #5f77b0; }
+    .note { font: 400 10px 'Fira Code', Consolas, monospace; fill: #aaa69d; }
     .glow { animation: pulse 3s ease-in-out infinite; transform-origin: 110px 128px; }
     @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: .8; } }
   </style>
@@ -30,32 +30,32 @@
   <text x="592" y="41" class="u" text-anchor="end">@ueMXf7R1D6</text>
 
   <!-- ring -->
-  <circle class="glow" cx="110" cy="128" r="70" fill="none" stroke="#00D4FF" stroke-width="1" stroke-dasharray="2 8"/>
-  <circle cx="110" cy="128" r="56" fill="none" stroke="#16245a" stroke-width="10"/>
+  <circle class="glow" cx="110" cy="128" r="70" fill="none" stroke="#e3d1aa" stroke-width="1" stroke-dasharray="2 8"/>
+  <circle cx="110" cy="128" r="56" fill="none" stroke="#303136" stroke-width="10"/>
 <circle cx="110" cy="128" r="56" fill="none" stroke="url(#ring)" stroke-width="10" stroke-linecap="round" stroke-dasharray="351.86" stroke-dashoffset="351.86" transform="rotate(-90 110 128)"><animate attributeName="stroke-dashoffset" from="351.86" to="320.37" dur="1.6s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></circle>
   <text x="110" y="133" class="big" text-anchor="middle">367</text>
   <text x="110" y="152" class="sub" text-anchor="middle">of 4101 solved</text>
 
-  <text x="214" y="92" class="lbl" fill="#00B8A3">Easy</text>
+  <text x="214" y="92" class="lbl" fill="#b9955b">Easy</text>
   <text x="586" y="92" class="cnt" text-anchor="end">130 / 975</text>
-  <rect x="214" y="101" width="372" height="8" rx="4" fill="#16245a"/>
-  <rect x="214" y="101" width="0" height="8" rx="4" fill="#00B8A3">
+  <rect x="214" y="101" width="372" height="8" rx="4" fill="#303136"/>
+  <rect x="214" y="101" width="0" height="8" rx="4" fill="#b9955b">
     <animate attributeName="width" from="0" to="49.6" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-  <text x="214" y="128" class="lbl" fill="#FFC01E">Medium</text>
+  <text x="214" y="128" class="lbl" fill="#d6bd91">Medium</text>
   <text x="586" y="128" class="cnt" text-anchor="end">188 / 2139</text>
-  <rect x="214" y="137" width="372" height="8" rx="4" fill="#16245a"/>
-  <rect x="214" y="137" width="0" height="8" rx="4" fill="#FFC01E">
+  <rect x="214" y="137" width="372" height="8" rx="4" fill="#303136"/>
+  <rect x="214" y="137" width="0" height="8" rx="4" fill="#d6bd91">
     <animate attributeName="width" from="0" to="32.7" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-  <text x="214" y="164" class="lbl" fill="#EF4743">Hard</text>
+  <text x="214" y="164" class="lbl" fill="#8f7650">Hard</text>
   <text x="586" y="164" class="cnt" text-anchor="end">49 / 987</text>
-  <rect x="214" y="173" width="372" height="8" rx="4" fill="#16245a"/>
-  <rect x="214" y="173" width="0" height="8" rx="4" fill="#EF4743">
+  <rect x="214" y="173" width="372" height="8" rx="4" fill="#303136"/>
+  <rect x="214" y="173" width="0" height="8" rx="4" fill="#8f7650">
     <animate attributeName="width" from="0" to="18.5" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
 
-  <line x1="28" y1="190" x2="592" y2="190" stroke="#1d2f6e"/>
+  <line x1="28" y1="190" x2="592" y2="190" stroke="#38352f"/>
   <text x="28" y="208" class="k">Global rank</text>
   <text x="28" y="230" class="v">#381,088</text>
   <text x="214" y="208" class="k">Current streak</text>
