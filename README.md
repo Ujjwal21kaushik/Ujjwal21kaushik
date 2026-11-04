@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/ueMXf7R1D6/"><img src="https://img.shields.io/badge/LeetCode-View%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
-  <a href="mailto:ujjwalkaus21@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><img src="https://img.shields.io/badge/LinkedIn-Connect-8A7655?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/ueMXf7R1D6/"><img src="https://img.shields.io/badge/LeetCode-View%20Profile-C6A56B?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile" /></a>
+  <a href="mailto:ujjwalkaus21@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-A58B63?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Ujjwal21kaushik"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Ujjwal21kaushik&style=for-the-badge&color=2457C5&label=PROFILE%20VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Ujjwal21kaushik&style=for-the-badge&color=B9955B&label=PROFILE%20VIEWS" alt="Profile views" />
 </p>
 
 <!-- <p align="center">
@@ -168,7 +168,7 @@ Computer Science engineering student who enjoys **building backend systems**, **
 
 <p align="center">
   <a href="https://leetcode.com/u/ueMXf7R1D6/">
-    <img src="https://img.shields.io/badge/Visit%20LeetCode%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="Visit LeetCode profile" />
+    <img src="https://img.shields.io/badge/Visit%20LeetCode%20Profile-C6A56B?style=for-the-badge&logo=leetcode&logoColor=black" alt="Visit LeetCode profile" />
   </a>
 </p>
 
@@ -181,7 +181,7 @@ Computer Science engineering student who enjoys **building backend systems**, **
 
 <p align="center">
   <a href="https://github.com/Ujjwal21kaushik">
-    <img src="assets/github-stats.svg" alt="GitHub profile statistics for Ujjwal Kaushik" width="95%" />
+    <img src="assets/github-stats.svg" alt="GitHub profile statistics for Ujjwal Kaushik" width="85%" />
   </a>
 </p>
 
@@ -194,11 +194,11 @@ Computer Science engineering student who enjoys **building backend systems**, **
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/ueMXf7R1D6/"><img src="https://img.shields.io/badge/LeetCode-Solve%20with%20me-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="mailto:ujjwalkaus21@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><img src="https://img.shields.io/badge/LinkedIn-Connect-8A7655?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/ueMXf7R1D6/"><img src="https://img.shields.io/badge/LeetCode-Solve%20with%20me-C6A56B?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="mailto:ujjwalkaus21@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-A58B63?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090979,50:2457C5,100:00D4FF&height=105&section=footer" alt="Blue wave footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111214,50:B9955B,100:E3D1AA&height=105&section=footer" alt="Charcoal and champagne footer" width="100%" />
 </p>

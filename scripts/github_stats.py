@@ -40,102 +40,64 @@ def render(stats):
         ("PULL REQUESTS", stats["prs"]),
         ("ISSUES", stats["issues"])
     ]
-
     positions = [
-        (30, 94), (230, 94), (430, 94),
-        (30, 170), (230, 170), (430, 170)
+        (24, 52), (204, 52), (384, 52),
+        (24, 106), (204, 106), (384, 106)
     ]
 
     cells = []
-
     for (label, value), (x, y) in zip(metrics, positions):
         cells.append(
-            f'<g>'
-            f'<rect x="{x}" y="{y}" width="170" height="58" '
-            f'rx="10" fill="#171b27" stroke="#303849"/>'
-            f'<text x="{x+14}" y="{y+21}" class="label">{escape(label)}</text>'
-            f'<text x="{x+14}" y="{y+45}" class="value">{value:,}</text>'
-            f'</g>'
+            f'<g><rect x="{x}" y="{y}" width="152" height="44" rx="8" '
+            f'fill="#191a1d" stroke="#34353a"/>'
+            f'<text x="{x+11}" y="{y+16}" class="label">{escape(label)}</text>'
+            f'<text x="{x+11}" y="{y+37}" class="value">{value:,}</text></g>'
         )
 
-    # Top languages
     langs = stats["languages"].most_common(5)
     total = sum(v for _, v in langs) or 1
-
     bars = []
-
     for i, (lang, count) in enumerate(langs):
-        y = 325 + i * 30
-        width = 300 * count / total
-
+        y = 202 + i * 19
+        width = 250 * count / total
         bars.append(
-            f'<text x="32" y="{y}" class="lang">{escape(lang)}</text>'
-            f'<rect x="150" y="{y-11}" width="300" height="8" '
-            f'rx="4" fill="#292f3d"/>'
-            f'<rect x="150" y="{y-11}" width="{width:.1f}" height="8" '
-            f'rx="4" fill="url(#bar)"/>'
-            f'<text x="475" y="{y}" class="small">{count} repos</text>'
+            f'<text x="26" y="{y}" class="lang">{escape(lang)}</text>'
+            f'<rect x="140" y="{y-7}" width="250" height="5" rx="2.5" fill="#303136"/>'
+            f'<rect x="140" y="{y-7}" width="{width:.1f}" height="5" rx="2.5" fill="url(#bar)"/>'
+            f'<text x="410" y="{y}" class="small">{count} repos</text>'
         )
-
     if not bars:
-        bars.append(
-            '<text x="32" y="325" class="small">'
-            'Language data will appear after the first sync.'
-            '</text>'
-        )
+        bars.append('<text x="26" y="202" class="small">Language data will appear after the first sync.</text>')
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg"
-viewBox="0 0 630 510" width="630" height="510"
+viewBox="0 0 560 310" width="560" height="310"
 role="img" aria-label="GitHub statistics for {escape(USERNAME)}">
-
 <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#10131c"/>
-        <stop offset="1" stop-color="#171c29"/>
-    </linearGradient>
-
-    <linearGradient id="edge">
-        <stop offset="0" stop-color="#a78bfa"/>
-        <stop offset="1" stop-color="#38bdf8"/>
-    </linearGradient>
-
-    <linearGradient id="bar">
-        <stop offset="0" stop-color="#a78bfa"/>
-        <stop offset="1" stop-color="#38bdf8"/>
-    </linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111214"/><stop offset="1" stop-color="#17181b"/>
+  </linearGradient>
+  <linearGradient id="bar">
+    <stop offset="0" stop-color="#b9955b"/><stop offset="1" stop-color="#e3d1aa"/>
+  </linearGradient>
 </defs>
-
 <style>
-    .title {{ font:700 21px Arial,sans-serif; fill:#fff }}
-    .user {{ font:500 12px monospace; fill:#9ca3b4 }}
-    .label {{ font:600 10px Arial,sans-serif; letter-spacing:1px; fill:#9ca3b4 }}
-    .value {{ font:700 21px Arial,sans-serif; fill:#fff }}
-    .section {{ font:700 13px Arial,sans-serif; fill:#e5e7eb }}
-    .lang {{ font:600 11px Arial,sans-serif; fill:#e5e7eb }}
-    .small {{ font:500 10px monospace; fill:#9ca3b4 }}
+  .title {{ font:700 17px Arial,sans-serif; fill:#f4f1e9 }}
+  .user {{ font:500 9px monospace; fill:#a9a49a }}
+  .label {{ font:600 8px Arial,sans-serif; letter-spacing:.65px; fill:#aaa69d }}
+  .value {{ font:700 17px Arial,sans-serif; fill:#f5f2eb }}
+  .section {{ font:700 9px Arial,sans-serif; letter-spacing:.6px; fill:#e5dfd2 }}
+  .lang {{ font:600 9px Arial,sans-serif; fill:#e8e4dc }}
+  .small {{ font:500 8px monospace; fill:#aaa69d }}
 </style>
-
-<rect x="1" y="1" width="628" height="508"
-rx="18" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
-
-<text x="30" y="39" class="title">GitHub Dashboard</text>
-<text x="600" y="38" text-anchor="end" class="user">@{escape(USERNAME)}</text>
-
+<rect x="1" y="1" width="558" height="308" rx="13" fill="url(#bg)" stroke="#38352f" stroke-width="1.1"/>
+<text x="24" y="31" class="title">GitHub Overview</text>
+<text x="536" y="30" text-anchor="end" class="user">@{escape(USERNAME)}</text>
 {''.join(cells)}
-
-<text x="30" y="285" class="section">
-    TOP LANGUAGES ACROSS PUBLIC REPOSITORIES
-</text>
-
+<line x1="24" y1="169" x2="536" y2="169" stroke="#302e29"/>
+<text x="24" y="187" class="section">LANGUAGES</text>
 {''.join(bars)}
-
-<text x="30" y="490" class="small">
-    Live snapshot · GitHub API · updated by GitHub Actions
-</text>
-
+<text x="24" y="295" class="small">Live snapshot · GitHub API · updated by GitHub Actions</text>
 </svg>"""
-
-
 def main():
     try:
         stats = get_stats()
