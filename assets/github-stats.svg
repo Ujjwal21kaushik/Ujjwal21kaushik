@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 180" width="630" height="180" role="img" aria-label="GitHub dashboard waiting for first sync">
-<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080f30"/><stop offset="1" stop-color="#10265d"/></linearGradient><linearGradient id="e"><stop stop-color="#00d4ff"/><stop offset="1" stop-color="#345bdb"/></linearGradient></defs>
-<rect x="1" y="1" width="628" height="178" rx="18" fill="url(#b)" stroke="url(#e)" stroke-width="1.5"/>
-<text x="30" y="54" fill="#fff" font-family="Arial" font-size="22" font-weight="700">GitHub Dashboard</text>
-<text x="30" y="91" fill="#91a8dc" font-family="Arial" font-size="14">Waiting for the first GitHub Actions sync</text>
-<text x="30" y="125" fill="#91a8dc" font-family="Arial" font-size="12">Open Actions → Update profile cards → Run workflow</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 410" width="630" height="410" role="img" aria-label="GitHub statistics for Ujjwal21kaushik">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080f30"/><stop offset="1" stop-color="#10265d"/></linearGradient><linearGradient id="edge"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#345bdb"/></linearGradient><linearGradient id="bar"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#4263eb"/></linearGradient></defs>
+<style>
+.title{font:700 21px Arial,sans-serif;fill:#fff} .user{font:500 12px monospace;fill:#91a8dc}
+.label{font:600 10px Arial,sans-serif;letter-spacing:1px;fill:#91a8dc} .value{font:700 21px Arial,sans-serif;fill:#fff}
+.section{font:700 13px Arial,sans-serif;fill:#dce8ff} .lang{font:600 11px Arial,sans-serif;fill:#dce8ff}
+.small{font:500 10px monospace;fill:#91a8dc}
+</style>
+<rect x="1" y="1" width="628" height="408" rx="18" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
+<text x="30" y="39" class="title">GitHub Dashboard</text><text x="600" y="38" text-anchor="end" class="user">@Ujjwal21kaushik</text>
+<g><rect x="30" y="94" width="170" height="58" rx="10" fill="#101f50" stroke="#243b7b"/><text x="44" y="115" class="label">PUBLIC REPOS</text><text x="44" y="139" class="value">10</text></g><g><rect x="230" y="94" width="170" height="58" rx="10" fill="#101f50" stroke="#243b7b"/><text x="244" y="115" class="label">STARS</text><text x="244" y="139" class="value">0</text></g><g><rect x="430" y="94" width="170" height="58" rx="10" fill="#101f50" stroke="#243b7b"/><text x="444" y="115" class="label">FORKS</text><text x="444" y="139" class="value">0</text></g><g><rect x="30" y="170" width="170" height="58" rx="10" fill="#101f50" stroke="#243b7b"/><text x="44" y="191" class="label">FOLLOWERS</text><text x="44" y="215" class="value">2</text></g><g><rect x="230" y="170" width="170" height="58" rx="10" fill="#101f50" stroke="#243b7b"/><text x="244" y="191" class="label">PULL REQUESTS</text><text x="244" y="215" class="value">10</text></g><g><rect x="430" y="170" width="170" height="58" rx="10" fill="#101f50" stroke="#243b7b"/><text x="444" y="191" class="label">ISSUES</text><text x="444" y="215" class="value">1</text></g>
+<text x="30" y="235" class="section">TOP LANGUAGES ACROSS PUBLIC REPOSITORIES</text>
+<text x="32" y="265" class="lang">Python</text><rect x="150" y="254" width="300" height="8" rx="4" fill="#1b2b61"/><rect x="150" y="254" width="187.5" height="8" rx="4" fill="url(#bar)"/><text x="475" y="265" class="small">5 repos</text><text x="32" y="291" class="lang">JavaScript</text><rect x="150" y="280" width="300" height="8" rx="4" fill="#1b2b61"/><rect x="150" y="280" width="75.0" height="8" rx="4" fill="url(#bar)"/><text x="475" y="291" class="small">2 repos</text><text x="32" y="317" class="lang">Java</text><rect x="150" y="306" width="300" height="8" rx="4" fill="#1b2b61"/><rect x="150" y="306" width="37.5" height="8" rx="4" fill="url(#bar)"/><text x="475" y="317" class="small">1 repos</text>
+<text x="30" y="385" class="small">Live snapshot · GitHub API · updated by GitHub Actions</text></svg>
