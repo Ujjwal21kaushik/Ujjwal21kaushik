@@ -96,58 +96,62 @@ Computer Science engineering student who enjoys **building backend systems**, **
 ---
 
 ## 🚀 Featured Projects
-
+  
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🔐 CampusPramaan
-**Multi-layer campus attendance system**
 
-A Django-based attendance prototype that combines face verification and location-based checks to help validate on-campus attendance. Includes separate student and teacher workflows.
+**Multi-Layer Campus Attendance System**
 
-**Tech:** Python · Django · Face Recognition · GeoPy · SQLite
+A Django-based attendance system combining face recognition and location-based verification to help validate on-campus attendance.
+
+**Tech Stack:** Python · Django · Face Recognition · GeoPy · SQLite
+
+[View Repository →](https://github.com/Ujjwal21kaushik/CampusPramaan)
 
 </td>
 <td width="50%" valign="top">
 
-### 🤖 WhatsApp FAQ Automation
-**Automated customer support over WhatsApp**
+### 📦 StockDrishti
 
-A Flask webhook integrated with Twilio that answers FAQs using fuzzy matching, supports an optional AI fallback, and captures prospective customer leads.
+**Inventory Management System**
 
-**Tech:** Python · Flask · Twilio · WhatsApp API · RapidFuzz
+An inventory management project designed to manage stock and streamline inventory operations.
+
+**Tech Stack:** Python
+
+[View Repository →](https://github.com/Ujjwal21kaushik/StockDrishti)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🏢 Business Listing Platform
-**Searchable directory for local businesses**
+### 🌐 CDN Project
 
-A Justdial-style listing platform with categories, subcategories, business profiles, leads, reviews, banners and membership-related flows. Built with a separate React frontend and FastAPI backend.
+**Location-Aware Content Delivery Network**
 
-**Tech:** React · TypeScript · FastAPI · MongoDB · Motor · Tailwind CSS
+A mini CDN exploring gateway-based routing and location-aware edge server selection for efficient content delivery.
+
+**Tech Stack:** Python · FastAPI · Networking
+
+[View Repository →](https://github.com/Ujjwal21kaushik/cdn_project)
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 RightAds Smart Dashboard
-**Lead data cleaning and calling insights**
+<!-- FUTURE PROJECT SLOT
+### 🏢 Business Listing Platform
 
-A Streamlit dashboard for uploading Excel/CSV lead sheets, cleaning phone-number data, identifying duplicates, tracking call statuses, and filtering records for follow-up.
-
-**Tech:** Python · Streamlit · Pandas · Excel/CSV
+Add description, tech stack and repository link here when published.
+-->
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <sub>Selected projects showcasing backend development, API integration, data workflows and practical problem-solving.</sub>
-</p>
----
 
 ## 🧠 LeetCode & Problem Solving
 
