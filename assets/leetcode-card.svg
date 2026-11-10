@@ -32,9 +32,9 @@
   <!-- ring -->
   <circle class="glow" cx="110" cy="128" r="70" fill="none" stroke="#e3d1aa" stroke-width="1" stroke-dasharray="2 8"/>
   <circle cx="110" cy="128" r="56" fill="none" stroke="#303136" stroke-width="10"/>
-<circle cx="110" cy="128" r="56" fill="none" stroke="url(#ring)" stroke-width="10" stroke-linecap="round" stroke-dasharray="351.86" stroke-dashoffset="351.86" transform="rotate(-90 110 128)"><animate attributeName="stroke-dashoffset" from="351.86" to="320.43" dur="1.6s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></circle>
+<circle cx="110" cy="128" r="56" fill="none" stroke="url(#ring)" stroke-width="10" stroke-linecap="round" stroke-dasharray="351.86" stroke-dashoffset="351.86" transform="rotate(-90 110 128)"><animate attributeName="stroke-dashoffset" from="351.86" to="320.44" dur="1.6s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></circle>
   <text x="110" y="133" class="big" text-anchor="middle">367</text>
-  <text x="110" y="152" class="sub" text-anchor="middle">of 4109 solved</text>
+  <text x="110" y="152" class="sub" text-anchor="middle">of 4110 solved</text>
 
   <text x="214" y="92" class="lbl" fill="#b9955b">Easy</text>
   <text x="586" y="92" class="cnt" text-anchor="end">130 / 975</text>
@@ -43,7 +43,7 @@
     <animate attributeName="width" from="0" to="49.6" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
   <text x="214" y="128" class="lbl" fill="#d6bd91">Medium</text>
-  <text x="586" y="128" class="cnt" text-anchor="end">188 / 2145</text>
+  <text x="586" y="128" class="cnt" text-anchor="end">188 / 2146</text>
   <rect x="214" y="137" width="372" height="8" rx="4" fill="#303136"/>
   <rect x="214" y="137" width="0" height="8" rx="4" fill="#d6bd91">
     <animate attributeName="width" from="0" to="32.6" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
@@ -57,7 +57,7 @@
 
   <line x1="28" y1="190" x2="592" y2="190" stroke="#38352f"/>
   <text x="28" y="208" class="k">Global rank</text>
-  <text x="28" y="230" class="v">#381,946</text>
+  <text x="28" y="230" class="v">#382,107</text>
   <text x="214" y="208" class="k">Current streak</text>
   <text x="214" y="230" class="v">41 days</text>
   <text x="380" y="208" class="k">Active days</text>
