@@ -145,13 +145,29 @@ Computer Science engineering student who enjoys **building backend systems**, **
 </td>
 <td width="50%" valign="top">
 
-<!-- <h3>🏢 Business Listing Platform</h3>
-<p><b>Coming soon to GitHub</b></p>
-<p>A Justdial-style business discovery platform. The public repository link will be added once the project is published.</p>
+
+<td width="50%" valign="top">
+
+<h3>🏢 Vypaar Setu</h3>
+<p><b>Full-Stack Business Listing & Discovery Platform</b></p>
+
+<p>A Justdial-style platform that connects customers with local businesses. Includes business discovery, listing applications, owner dashboards, customer enquiries and admin-managed listing verification.</p>
+
 <p>
-  <img src="https://img.shields.io/badge/Repository-Coming_Soon-64748b?style=flat-square" alt="Repository coming soon" />
+  <img src="https://img.shields.io/badge/React_19-191a1d?style=flat-square&logo=react&logoColor=e3d1aa" alt="React" />
+  <img src="https://img.shields.io/badge/FastAPI-191a1d?style=flat-square&logo=fastapi&logoColor=e3d1aa" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/MongoDB-191a1d?style=flat-square&logo=mongodb&logoColor=e3d1aa" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-191a1d?style=flat-square&logo=tailwindcss&logoColor=e3d1aa" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Cloudflare_R2-191a1d?style=flat-square&logo=cloudflare&logoColor=e3d1aa" alt="Cloudflare R2" />
+  <img src="https://img.shields.io/badge/JWT_Auth-191a1d?style=flat-square&logo=jsonwebtokens&logoColor=e3d1aa" alt="JWT" />
 </p>
-<p><i>Project preview slot · link to be added later</i></p> -->
+
+<p><b>Key Areas:</b> Business Discovery · Authentication · Listing Management · Admin Dashboard · Lead Management</p>
+
+<p><a href="YOUR_PUBLIC_REPOSITORY_LINK"><b>Explore repository →</b></a></p>
+
+</td>
+
 
 </td>
 </tr>
