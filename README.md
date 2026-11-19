@@ -145,9 +145,6 @@ Computer Science engineering student who enjoys **building backend systems**, **
 </td>
 <td width="50%" valign="top">
 
-
-<td width="50%" valign="top">
-
 <h3>🏢 Vypaar Setu</h3>
 <p><b>Full-Stack Business Listing & Discovery Platform</b></p>
 
@@ -165,9 +162,6 @@ Computer Science engineering student who enjoys **building backend systems**, **
 <p><b>Key Areas:</b> Business Discovery · Authentication · Listing Management · Admin Dashboard · Lead Management</p>
 
 <p><a href="YOUR_PUBLIC_REPOSITORY_LINK"><b>Explore repository →</b></a></p>
-
-</td>
-
 
 </td>
 </tr>
