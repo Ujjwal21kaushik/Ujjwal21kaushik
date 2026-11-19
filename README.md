@@ -146,22 +146,18 @@ Computer Science engineering student who enjoys **building backend systems**, **
 <td width="50%" valign="top">
 
 <h3>🏢 Vypaar Setu</h3>
-<p><b>Full-Stack Business Listing & Discovery Platform</b></p>
-
-<p>A Justdial-style platform that connects customers with local businesses. Includes business discovery, listing applications, owner dashboards, customer enquiries and admin-managed listing verification.</p>
-
+<p><b>Full-Stack Business Listing &amp; Discovery Platform</b></p>
+<p>A JustDial-style platform connecting customers with local businesses through search, category browsing, business profiles, ratings and reviews, bookmarks, and customer enquiries. Includes business-owner dashboards and admin workflows for listing verification, category management and lead moderation.</p>
 <p>
-  <img src="https://img.shields.io/badge/React_19-191a1d?style=flat-square&logo=react&logoColor=e3d1aa" alt="React" />
+  <img src="https://img.shields.io/badge/React_19-191a1d?style=flat-square&logo=react&logoColor=e3d1aa" alt="React 19" />
   <img src="https://img.shields.io/badge/FastAPI-191a1d?style=flat-square&logo=fastapi&logoColor=e3d1aa" alt="FastAPI" />
   <img src="https://img.shields.io/badge/MongoDB-191a1d?style=flat-square&logo=mongodb&logoColor=e3d1aa" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-191a1d?style=flat-square&logo=tailwindcss&logoColor=e3d1aa" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Cloudflare_R2-191a1d?style=flat-square&logo=cloudflare&logoColor=e3d1aa" alt="Cloudflare R2" />
-  <img src="https://img.shields.io/badge/JWT_Auth-191a1d?style=flat-square&logo=jsonwebtokens&logoColor=e3d1aa" alt="JWT" />
+  <img src="https://img.shields.io/badge/JWT_Auth-191a1d?style=flat-square&logo=jsonwebtokens&logoColor=e3d1aa" alt="JWT authentication" />
 </p>
-
-<p><b>Key Areas:</b> Business Discovery · Authentication · Listing Management · Admin Dashboard · Lead Management</p>
-
-<p><a href="YOUR_PUBLIC_REPOSITORY_LINK"><b>Explore repository →</b></a></p>
+<p><b>Key Areas:</b> Business Discovery · Authentication · Listing Management · Reviews · Bookmarks · Admin Dashboard · Lead Management</p>
+<p><a href="https://github.com/Ujjwal21kaushik/Vypaar-Setu"><b>Explore repository →</b></a></p>
 
 </td>
 </tr>
