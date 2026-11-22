@@ -3,7 +3,7 @@
 
     python scripts/build_assets.py
 
-Edit the data blocks below (projects, toolbox, buttons) and re-run.
+Edit the data blocks below (projects, toolbox, buttons) and re-run. Featured Work cards are generated here.
 """
 import math
 import os
