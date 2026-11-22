@@ -8,7 +8,10 @@ on:
     paths:
       - "assets/photo.*"      # redraw the ASCII portrait when you change your photo
       - "scripts/**"           # regenerate static SVG cards when their source changes
-      - "README.md"            # keep profile assets in sync with profile edits
+
+concurrency:
+  group: profile-build-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
