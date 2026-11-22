@@ -166,54 +166,97 @@ def footer(t):
 
 
 # ============================================================ PROJECT CARDS
+# Descriptions and stack labels verified against each public repository README.
 PROJECTS = [
-    ("WhatsApp FAQ Automation",
-     "Webhook-based bot that answers customer questions automatically, with fuzzy matching and an AI fallback.",
-     ["Python", "Twilio", "Webhooks"]),
-    ("Business Listing Platform",
-     "Searchable business directory with listings and membership flows, backed by a REST API and database.",
-     ["REST API", "Database", "Search"]),
-    ("Data Dashboard",
-     "Upload spreadsheets and see call or lead statuses at a glance through simple, clear charts.",
-     ["Python", "Data viz", "File upload"]),
-    ("Mini CDN Concepts",
-     "Experiments with a gateway and location-aware edge servers to explore routing and caching.",
-     ["Routing", "Edge", "Caching"]),
+    {
+        "title": "Vyapar Setu",
+        "desc": "Full-stack local business discovery platform with listings, reviews, bookmarks and admin verification.",
+        "tags": ["React", "FastAPI", "MongoDB", "Cloudflare R2"],
+        "updated": "Nov 2026",
+    },
+    {
+        "title": "StockDrishti",
+        "desc": "Retail inventory and billing system with barcode workflows, QR bills and demand forecasting.",
+        "tags": ["Python", "Flask", "PostgreSQL", "JavaScript"],
+        "updated": "Nov 2026",
+    },
+    {
+        "title": "WhatsApp FAQ Chatbot",
+        "desc": "WhatsApp FAQ automation using cached company data, fuzzy matching and lead capture.",
+        "tags": ["Python", "Flask", "Twilio", "RapidFuzz"],
+        "updated": "Jun 2026",
+    },
+    {
+        "title": "CampusPramaan",
+        "desc": "Django attendance prototype combining face verification, GPS geofencing and live sessions.",
+        "tags": ["Python", "Django", "OpenCV", "SQLite"],
+        "updated": "Nov 2026",
+    },
 ]
+
+STACK_COLORS = ["#E76F51", "#3B82B7", "#8B6BB1", "#E3C84B"]
 
 
 def wrap(text, n):
     lines, cur = [], ""
-    for w in text.split():
-        if len(cur) + len(w) + 1 > n:
+    for word in text.split():
+        if len(cur) + len(word) + 1 > n:
             lines.append(cur)
-            cur = w
+            cur = word
         else:
-            cur = (cur + " " + w).strip()
-    lines.append(cur)
-    return lines[:3]
+            cur = (cur + " " + word).strip()
+    if cur:
+        lines.append(cur)
+    return lines[:2]
 
 
-def project(t, idx, title, desc, tags):
-    w, h = 432, 238
-    b = [card(w, h, t)]
-    for i in range(4):
-        for j in range(4):
-            b.append(f'<circle cx="{358 + i * 11}" cy="{24 + j * 11}" r="1.5" fill="{t["accent"]}" opacity="{0.12 + 0.18 * ((i + j) / 6):.2f}"/>')
-    b.append(f'<text x="28" y="48" class="sans" font-size="11" font-weight="500" letter-spacing="2.4" fill="{t["accent"]}">{idx:02d} · PROJECT</text>')
-    b.append(f'<text x="28" y="84" class="sans" font-size="25" font-weight="600" fill="{t["ink"]}">{escape(title)}</text>')
-    for i, line in enumerate(wrap(desc, 52)):
-        b.append(f'<text x="28" y="{114 + i * 22}" class="sans" font-size="14.5" fill="{t["muted"]}">{escape(line)}</text>')
-    b.append(f'<path d="M28 174H{w - 28}" stroke="{t["line"]}"/>')
-    x = 28
+def feather(t):
+    return (
+        f'<g transform="translate(466 18)" opacity=".92">'
+        f'<path d="M0 3 C-5 22 -18 38 -10 61 C-3 53 4 39 4 23 C6 14 5 7 0 3Z" fill="{t["accent"]}" opacity=".10" stroke="{t["accent"]}" stroke-opacity=".22"/>'
+        f'<path d="M0 5 C-3 24 -8 42 -9 58 M0 13 L-11 29 M1 21 L-12 38 M1 30 L-8 46" fill="none" stroke="{t["accent"]}" stroke-opacity=".34" stroke-width=".8"/>'
+        f'<ellipse cx="0" cy="7" rx="7" ry="10" fill="#287A58" opacity=".9"/>'
+        f'<ellipse cx="0" cy="7" rx="4.6" ry="7" fill="#D6A34B"/>'
+        f'<ellipse cx="0" cy="7" rx="2.7" ry="4.8" fill="#246B9A"/>'
+        f'<ellipse cx="0" cy="7" rx="1.25" ry="2.7" fill="#173B68"/>'
+        f'</g>'
+    )
+
+
+def project(t, idx, item):
+    w, h = 520, 270
+    title, desc, tags = item["title"], item["desc"], item["tags"]
+    b = [card(w, h, t, rx=19), feather(t)]
+    b.append(f'<text x="30" y="40" class="sans" font-size="11" font-weight="600" letter-spacing="2.1" fill="{t["accent"]}">{idx:02d} · PROJECT</text>')
+    title_size = 25 if len(title) < 18 else 22
+    b.append(f'<text x="30" y="77" class="sans" font-size="{title_size}" font-weight="600" fill="{t["ink"]}">{escape(title)}</text>')
+    for i, line in enumerate(wrap(desc, 62)):
+        b.append(f'<text x="30" y="{108 + i * 22}" class="sans" font-size="14" fill="{t["muted"]}">{escape(line)}</text>')
+
+    # Segments are decorative stack markers, not language-percentage claims.
+    bar_x, bar_y, bar_w, bar_h = 30, 158, 460, 5
+    b.append(f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="2.5" fill="{t["line"]}"/>')
+    seg_w = bar_w / len(tags)
+    for i, _ in enumerate(tags):
+        x = bar_x + i * seg_w
+        b.append(f'<rect x="{x:.1f}" y="{bar_y}" width="{seg_w + .4:.1f}" height="{bar_h}" rx="1.5" fill="{STACK_COLORS[i % len(STACK_COLORS)]}"/>')
+
+    x, y = 30, 204
     for tag in tags:
-        tw = int(len(tag) * 6.9 + 26)
-        b.append(f'<rect x="{x}" y="190" width="{tw}" height="28" rx="14" fill="{t["chip"]}" stroke="{t["stroke"]}"/>'
-                 f'<text x="{x + tw / 2}" y="208.5" text-anchor="middle" class="sans" font-size="12" fill="{t["muted"]}">{escape(tag)}</text>')
-        x += tw + 8
-    return svg(w, h, "".join(b), f"{title}: {desc}", SANS)
+        tw = int(len(tag) * 6.4 + 23)
+        if x + tw > 490:
+            x, y = 30, 234
+        b.append(f'<rect x="{x}" y="{y-16}" width="{tw}" height="25" rx="12.5" fill="{t["chip"]}" stroke="{t["stroke"]}"/>')
+        b.append(f'<text x="{x + tw / 2}" y="{y + 1}" text-anchor="middle" class="sans" font-size="11.5" fill="{t["muted"]}">{escape(tag)}</text>')
+        x += tw + 7
 
-
+    b.append(f'<path d="M30 237H490" stroke="{t["line"]}"/>')
+    b.append(f'<path d="M34 247l4 -4 4 4 -4 4Z" fill="{t["accent"]}"/>')
+    b.append(f'<text x="49" y="252" class="sans" font-size="10.5" fill="{t["dim"]}">★ 0</text>')
+    b.append(f'<path d="M105 244v8m0 -6l-4 -3m4 3l4 -3m-4 6l-4 3m4 -3l4 3" stroke="{t["dim"]}" stroke-width="1.1" fill="none" stroke-linecap="round"/>')
+    b.append(f'<text x="116" y="252" class="sans" font-size="10.5" fill="{t["dim"]}">0</text>')
+    b.append(f'<text x="490" y="252" text-anchor="end" class="sans" font-size="10.5" fill="{t["dim"]}">Updated {item["updated"]}  ↗</text>')
+    return svg(w, h, "".join(b), f'{title}: {desc}', SANS)
 # ============================================================ MAIN
 def main():
     for mode, t in THEMES.items():
@@ -224,8 +267,8 @@ def main():
             write(f"{A}/headers/{slug}-{mode}.svg", header(t, num, title, note))
         for slug, label, handle, icon in BUTTONS:
             write(f"{A}/buttons/{slug}-{mode}.svg", button(t, label, handle, icon))
-        for i, (title, desc, tags) in enumerate(PROJECTS, 1):
-            write(f"{A}/projects/project-{i}-{mode}.svg", project(t, i, title, desc, tags))
+        for i, item in enumerate(PROJECTS, 1):
+            write(f"{A}/projects/project-{i}-{mode}.svg", project(t, i, item))
 
 
 if __name__ == "__main__":
