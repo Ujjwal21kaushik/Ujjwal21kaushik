@@ -226,11 +226,11 @@ def about(t, mode, gh, lc, grid, placeholder):
     H = 460
     pending = gh is None and lc is None
     rows_static = [
-        ("OS", "CS Engineering student"),
-        ("Kernel", "Backend Development × DSA"),
+        ("OS", "B.Tech CSE (AI & Data Science) · GLA University"),
+        ("Kernel", "Full-stack Web × AI Data Analytics"),
         ("Shell", "Python · Java · JavaScript"),
-        ("Building", "REST APIs · bots · data tools"),
-        ("Learning", "React · Tailwind CSS"),
+        ("Building", "Full-stack apps · REST APIs · automation"),
+        ("Learning", "AI tools · data analytics · system design"),
         ("Mantra", "Small progress every day adds up."),
     ]
     live = [
