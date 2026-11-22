@@ -41,14 +41,21 @@ def hero(t):
                  f'repeatCount="indefinite" path="M{x1} {y1}L{x2} {y2}"/></circle>')
     b.append("</g>")
 
-    b.append(f'<text x="62" y="76" class="sans rise" font-size="11" font-weight="500" letter-spacing="3.2" fill="{t["accent"]}">HELLO, WORLD</text>')
+    b.append(f'<text x="62" y="76" class="sans rise" font-size="11" font-weight="600" letter-spacing="3.2" fill="{t["accent"]}">RADHE RADHE</text>')
     b.append(f'<text x="60" y="142" class="serif rise" font-size="72" fill="{t["ink"]}" style="animation-delay:.1s">'
              f'{P["name_first"]} <tspan font-style="italic" fill="{t["accent"]}">{P["name_last"]}</tspan></text>')
-    # request "pipeline" line
-    b.append(f'<rect x="62" y="162" width="300" height="10" rx="5" fill="none" stroke="{t["accent"]}" stroke-width="1.2" class="fade" style="animation-delay:.3s"/>')
-    for x in (130, 190, 250, 310):
-        b.append(f'<circle cx="{x}" cy="167" r="1.4" fill="{t["accent"]}" opacity=".6"/>')
-    b.append(f'<circle cy="167" r="2.8" fill="{t["accent"]}"><animate attributeName="cx" values="72;352;72" dur="5s" repeatCount="indefinite"/></circle>')
+    # Animated golden bansuri (flute) beneath the name
+    b.append(f'<g class="fade" style="animation-delay:.3s" stroke="{t["accent"]}" stroke-linecap="round" stroke-linejoin="round">')
+    b.append('<path d="M66 167 Q66 162 72 162 H354 Q360 162 360 167 Q360 172 354 172 H72 Q66 172 66 167Z" fill="none" stroke-width="1.5"/>')
+    b.append('<path d="M72 164 H354" fill="none" stroke-width="1" opacity=".65"/>')
+    for x in (126, 164, 202, 240, 278, 316):
+        b.append(f'<ellipse cx="{x}" cy="167" rx="3.2" ry="2" fill="{t["accent"]}" stroke="none" opacity=".9"/>')
+    b.append('<path d="M66 162 Q60 167 66 172 M360 162 Q366 167 360 172" fill="none" stroke-width="1.5"/>')
+    b.append('<path d="M348 172 Q353 181 348 187 M354 172 Q359 181 354 187" fill="none" stroke-width="1.2"/>')
+    b.append(f'<path d="M348 187 l-3 4 3-1 3 1z M354 187 l-3 4 3-1 3 1z" fill="{t["accent"]}" stroke="none"/>')
+    b.append('<path d="M72 159 H354" fill="none" stroke="#fff0bd" stroke-width="1" opacity=".55"><animate attributeName="opacity" values=".15;.8;.15" dur="3.8s" repeatCount="indefinite"/></path>')
+    b.append('<circle r="2.2" cy="167" fill="#fff0bd" stroke="none"><animate attributeName="cx" values="72;354;72" dur="5s" repeatCount="indefinite"/></circle>')
+    b.append('</g>')
     b.append(f'<text x="62" y="214" class="sans rise" font-size="17" fill="{t["ink"]}" style="animation-delay:.25s">Full-stack web developer and AI &amp; data analytics enthusiast.</text>')
     b.append(f'<text x="62" y="240" class="sans rise" font-size="13.5" fill="{t["muted"]}" style="animation-delay:.35s">B.Tech CSE (AI &amp; Data Science) · GLA University.</text>')
     x = 62
