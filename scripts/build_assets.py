@@ -245,19 +245,19 @@ def project(t, idx, item):
     w, h = 520, 270
     title, desc, tags = item["title"], item["desc"], item["tags"]
     lead, accent = item["lead"], item["accent"]
-    pink = "#F08AB8" if t["card"] == "#10151C" else "#C34D86"
-    soft_pink = "#D96AA0" if t["card"] == "#10151C" else "#B34D7D"
+    gold = "#C9A35B" if t["card"] == "#10151C" else "#A5772A"
+    soft_gold = "#A9874F" if t["card"] == "#10151C" else "#B18A48"
     b = [
-        f'<rect x="1" y="1" width="518" height="268" rx="18" fill="{t["card"]}" stroke="{soft_pink}" stroke-opacity=".42" stroke-width="1"/>',
-        f'<g transform="translate(447 82)" fill="none" stroke="{soft_pink}" stroke-width=".8" opacity=".12"><circle r="12"/><circle r="23"/><circle r="38"/><circle r="54"/><circle r="68"/></g>',
+        f'<rect x="1" y="1" width="518" height="268" rx="18" fill="{t["card"]}" stroke="{soft_gold}" stroke-opacity=".62" stroke-width="1"/>',
+        mandala(t),
         feather(t),
-        f'<text x="30" y="39" class="sans" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="{pink}">{idx:02d} · PROJECT</text>',
-        f'<path d="M168 34H225" stroke="{pink}" stroke-width="1.2" opacity=".75"/>',
-        f'<text x="30" y="82" class="serif" font-size="34" font-weight="400" fill="{t["ink"]}">{escape(lead)} <tspan font-style="italic" fill="{pink}">{escape(accent)}</tspan></text>',
+        f'<text x="30" y="39" class="sans" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="{gold}">{idx:02d} · PROJECT</text>',
+        f'<path d="M168 34H225" stroke="{gold}" stroke-width="1.2" opacity=".75"/>',
+        f'<text x="30" y="82" class="serif" font-size="34" font-weight="400" fill="{t["ink"]}">{escape(lead)} <tspan font-style="italic" fill="{gold}">{escape(accent)}</tspan></text>',
     ]
     if item.get("live"):
-        b.append(f'<g><rect x="431" y="26" width="58" height="22" rx="11" fill="{t["chip"]}" stroke="{pink}" stroke-width="1"/>'
-                 f'<circle cx="443" cy="37" r="3.2" fill="#38C98B"/><text x="452" y="41" class="sans" font-size="9.5" font-weight="600" letter-spacing=".8" fill="{pink}">LIVE</text></g>')
+        b.append(f'<g><rect x="431" y="26" width="58" height="22" rx="11" fill="{t["chip"]}" stroke="{gold}" stroke-width="1"/>'
+                 f'<circle cx="443" cy="37" r="3.2" fill="#38C98B"/><text x="452" y="41" class="sans" font-size="9.5" font-weight="600" letter-spacing=".8" fill="{gold}">LIVE</text></g>')
     for i, line in enumerate(wrap(desc, 64)):
         b.append(f'<text x="30" y="{116 + i * 22}" class="serif" font-size="17" fill="{t["ink"]}">{escape(line)}</text>')
 
@@ -273,17 +273,19 @@ def project(t, idx, item):
         tw = int(len(tag) * 7.0 + 34)
         if x + tw > 490:
             x, y = 30, 229
-        b.append(f'<rect x="{x}" y="{y-17}" width="{tw}" height="27" rx="13.5" fill="{t["chip"]}" stroke="{soft_pink}" stroke-opacity=".55"/>')
+        b.append(f'<rect x="{x}" y="{y-17}" width="{tw}" height="27" rx="13.5" fill="{t["chip"]}" stroke="{soft_gold}" stroke-opacity=".55"/>')
         b.append(f'<text x="{x + tw / 2}" y="{y + 1}" text-anchor="middle" class="serif" font-size="14" fill="{t["ink"]}">{escape(tag)}</text>')
         x += tw + 8
 
-    b.append(f'<path d="M30 235H490" stroke="{soft_pink}" stroke-opacity=".38" stroke-width=".8"/>')
-    b.append(f'<path d="M35 248l5 -8 5 8 -5 5Z" fill="{pink}"/>')
+    b.append(f'<path d="M30 235H490" stroke="{soft_gold}" stroke-opacity=".42" stroke-width=".8"/>')
+    b.append(f'<path d="M35 248l5 -8 5 8 -5 5Z" fill="{gold}"/>')
     b.append(f'<text x="55" y="252" class="serif" font-size="14" fill="{t["ink"]}">0</text>')
     b.append(f'<path d="M108 242v10m0 -8l-5 -4m5 4l5 -4m-5 8l-5 4m5 -4l5 4" stroke="{t["ink"]}" stroke-width="1.2" fill="none" stroke-linecap="round"/>')
     b.append(f'<text x="125" y="252" class="serif" font-size="14" fill="{t["ink"]}">0</text>')
     b.append(f'<text x="490" y="252" text-anchor="end" class="serif" font-size="14" fill="{t["ink"]}">Updated {item["updated"]} ↗</text>')
     return svg(w, h, "".join(b), f'{title}: {desc}', SANS + ["serif400", "serifi400"])
+
+
 # ============================================================ MAIN
 def main():
     for mode, t in THEMES.items():
