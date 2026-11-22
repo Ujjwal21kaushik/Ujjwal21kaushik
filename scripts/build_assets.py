@@ -215,8 +215,8 @@ MORPANK_DATA = "iVBORw0KGgoAAAANSUhEUgAAAGAAAAArCAYAAACHB42XAAAXqklEQVR42u2bfXRU
 
 
 def feather(t):
-    # User-provided Mor Pank artwork, embedded so the SVG remains self-contained.
-    return (f'<image x="390" y="20" width="105" height="48" '
+    # Mor Pank sits in the upper-left corner; Rangoli geometry stays on the right.
+    return (f'<image x="22" y="8" width="92" height="54" '
             f'preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,{MORPANK_DATA}"/>')
 
 
@@ -252,8 +252,8 @@ def project(t, idx, item):
         f'<rect x="1" y="1" width="518" height="268" rx="18" fill="{t["card"]}" stroke="{soft_gold}" stroke-opacity=".62" stroke-width="1"/>',
         mandala(t),
         feather(t),
-        f'<text x="30" y="39" class="sans" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="{gold}">{idx:02d} · PROJECT</text>',
-        f'<path d="M168 34H225" stroke="{gold}" stroke-width="1.2" opacity=".75"/>',
+        f'<text x="128" y="39" class="sans" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="{gold}">{idx:02d} · PROJECT</text>',
+        f'<path d="M266 34H323" stroke="{gold}" stroke-width="1.2" opacity=".75"/>',
         f'<text x="30" y="82" class="serif" font-size="34" font-weight="400" fill="{t["ink"]}">{escape(lead)} <tspan font-style="italic" fill="{gold}">{escape(accent)}</tspan></text>',
     ]
     if item.get("live"):
