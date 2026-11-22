@@ -49,8 +49,8 @@ def hero(t):
     for x in (130, 190, 250, 310):
         b.append(f'<circle cx="{x}" cy="167" r="1.4" fill="{t["accent"]}" opacity=".6"/>')
     b.append(f'<circle cy="167" r="2.8" fill="{t["accent"]}"><animate attributeName="cx" values="72;352;72" dur="5s" repeatCount="indefinite"/></circle>')
-    b.append(f'<text x="62" y="214" class="sans rise" font-size="20" fill="{t["ink"]}" style="animation-delay:.25s">Full-stack web developer and AI &amp; data analytics enthusiast.</text>')
-    b.append(f'<text x="62" y="240" class="sans rise" font-size="15" fill="{t["muted"]}" style="animation-delay:.35s">B.Tech CSE (AI &amp; Data Science) · GLA University.</text>')
+    b.append(f'<text x="62" y="214" class="sans rise" font-size="17" fill="{t["ink"]}" style="animation-delay:.25s">Full-stack web developer and AI &amp; data analytics enthusiast.</text>')
+    b.append(f'<text x="62" y="240" class="sans rise" font-size="13.5" fill="{t["muted"]}" style="animation-delay:.35s">B.Tech CSE (AI &amp; Data Science) · GLA University.</text>')
     x = 62
     for i, chip in enumerate(("Full-stack Web", "Automation", "DSA")):
         w = int(len(chip) * 7.4 + 34)
