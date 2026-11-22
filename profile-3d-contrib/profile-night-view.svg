@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" role="img" aria-label="3D contribution graph placeholder">
+<rect x="1" y="1" width="878" height="258" rx="16" fill="#0A0F16" stroke="#232B38"/>
+<text x="440" y="124" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#E6E8EE">3D contribution skyline</text>
+<text x="440" y="154" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#6B7385">appears after the first run of the "Update profile" workflow</text>
+</svg>
