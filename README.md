@@ -54,56 +54,69 @@
 <p align="center"><i>A selection of projects where I turn concepts into working software.</i></p>
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>CampusPramaan</h3>
-      <b>Multi-Layer Campus Attendance System</b>
-      <p>A Django-based attendance prototype that combines face recognition with location-based verification for on-campus attendance.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-        <img src="https://img.shields.io/badge/Face_Recognition-6C63FF?style=flat-square" alt="Face Recognition" />
-        <img src="https://img.shields.io/badge/GeoPy-2E8B57?style=flat-square" alt="GeoPy" />
-      </p>
-      <a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><b>Explore repository →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>StockDrishti</h3>
-      <b>Inventory Management System</b>
-      <p>A Python project focused on inventory management and stock operations.</p>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></p>
-      <a href="https://github.com/Ujjwal21kaushik/StockDrishti"><b>Explore repository →</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>CDN Project</h3>
-      <b>Location-Aware Content Delivery Network</b>
-      <p>A mini CDN exploring gateway-based routing and location-aware edge-server selection.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/Networking-4169E1?style=flat-square" alt="Networking" />
-      </p>
-      <a href="https://github.com/Ujjwal21kaushik/cdn_project"><b>Explore repository →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Vypaar Setu</h3>
-      <b>Full-Stack Business Listing &amp; Discovery Platform</b>
-      <p>A JustDial-style platform connecting customers with local businesses through search, category browsing, business profiles, ratings and reviews, bookmarks, and customer enquiries. Includes business-owner dashboards and admin workflows for listing verification, category management and lead moderation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React_19-191a1d?style=flat-square&logo=react&logoColor=e3d1aa" alt="React 19" />
-        <img src="https://img.shields.io/badge/FastAPI-191a1d?style=flat-square&logo=fastapi&logoColor=e3d1aa" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/MongoDB-191a1d?style=flat-square&logo=mongodb&logoColor=e3d1aa" alt="MongoDB" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-191a1d?style=flat-square&logo=tailwindcss&logoColor=e3d1aa" alt="Tailwind CSS" />
-        <img src="https://img.shields.io/badge/Cloudflare_R2-191a1d?style=flat-square&logo=cloudflare&logoColor=e3d1aa" alt="Cloudflare R2" />
-        <img src="https://img.shields.io/badge/JWT_Auth-191a1d?style=flat-square&logo=jsonwebtokens&logoColor=e3d1aa" alt="JWT authentication" />
-      </p>
-      <b>Key Areas:</b> Business Discovery · Authentication · Listing Management · Reviews · Bookmarks · Admin Dashboard · Lead Management
-      <br /><br />
-      <a href="https://github.com/Ujjwal21kaushik/Vypaar-Setu"><b>Explore repository →</b></a>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3>🔐 CampusPramaan</h3>
+<p><b>Multi-Layer Campus Attendance System</b></p>
+<p>A Django-based attendance prototype that combines face recognition with location-based verification for on-campus attendance.</p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Face_Recognition-6C63FF?style=flat-square" alt="Face Recognition" />
+  <img src="https://img.shields.io/badge/GeoPy-2E8B57?style=flat-square" alt="GeoPy" />
+</p>
+<p><a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><b>Explore repository →</b></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>📦 StockDrishti</h3>
+<p><b>Inventory Management System</b></p>
+<p>A Python project focused on inventory management and stock operations.</p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+<p><a href="https://github.com/Ujjwal21kaushik/StockDrishti"><b>Explore repository →</b></a></p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3>🌐 CDN Project</h3>
+<p><b>Location-Aware Content Delivery Network</b></p>
+<p>A mini CDN exploring gateway-based routing and location-aware edge-server selection.</p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Networking-4169E1?style=flat-square" alt="Networking" />
+</p>
+<p><a href="https://github.com/Ujjwal21kaushik/cdn_project"><b>Explore repository →</b></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🏢 Vypaar Setu</h3>
+<p><b>Full-Stack Business Listing & Discovery Platform</b></p>
+
+<p>A Justdial-style platform that connects customers with local businesses. Includes business discovery, listing applications, owner dashboards, customer enquiries and admin-managed listing verification.</p>
+
+<p>
+  <img src="https://img.shields.io/badge/React_19-191a1d?style=flat-square&logo=react&logoColor=e3d1aa" alt="React" />
+  <img src="https://img.shields.io/badge/FastAPI-191a1d?style=flat-square&logo=fastapi&logoColor=e3d1aa" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/MongoDB-191a1d?style=flat-square&logo=mongodb&logoColor=e3d1aa" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-191a1d?style=flat-square&logo=tailwindcss&logoColor=e3d1aa" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Cloudflare_R2-191a1d?style=flat-square&logo=cloudflare&logoColor=e3d1aa" alt="Cloudflare R2" />
+  <img src="https://img.shields.io/badge/JWT_Auth-191a1d?style=flat-square&logo=jsonwebtokens&logoColor=e3d1aa" alt="JWT" />
+</p>
+
+<p><b>Key Areas:</b> Business Discovery · Authentication · Listing Management · Admin Dashboard · Lead Management</p>
+
+<p><a href="YOUR_PUBLIC_REPOSITORY_LINK"><b>Explore repository →</b></a></p>
+
+</td>
+</tr>
 </table>
 
 ---
