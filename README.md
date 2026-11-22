@@ -19,7 +19,6 @@
 </div>
 
 <br>
-<br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/about-dark.svg"><img src="assets/headers/about-light.svg" width="100%" alt="01 About me"></picture>
 
