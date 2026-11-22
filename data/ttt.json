@@ -1,0 +1,100 @@
+{
+  "board": [
+    "X",
+    "X",
+    "O",
+    "O",
+    "O",
+    "X",
+    "X",
+    "O",
+    "X"
+  ],
+  "status": "draw",
+  "moves": [
+    {
+      "player": "NANDGOPALSHARMA-29",
+      "mark": "X",
+      "cell": 0,
+      "at": "2026-10-30T19:01:36.207Z"
+    },
+    {
+      "player": "minimax",
+      "mark": "O",
+      "cell": 4,
+      "at": "2026-10-30T19:01:36.207Z"
+    },
+    {
+      "player": "Aadi-web-op",
+      "mark": "X",
+      "cell": 6,
+      "at": "2026-10-31T08:10:45.598Z"
+    },
+    {
+      "player": "minimax",
+      "mark": "O",
+      "cell": 3,
+      "at": "2026-10-31T08:10:45.598Z"
+    },
+    {
+      "player": "Aadi-web-op",
+      "mark": "X",
+      "cell": 5,
+      "at": "2026-10-31T08:11:59.537Z"
+    },
+    {
+      "player": "minimax",
+      "mark": "O",
+      "cell": 7,
+      "at": "2026-10-31T08:11:59.537Z"
+    },
+    {
+      "player": "Aadi-web-op",
+      "mark": "X",
+      "cell": 1,
+      "at": "2026-10-31T08:12:49.406Z"
+    },
+    {
+      "player": "minimax",
+      "mark": "O",
+      "cell": 2,
+      "at": "2026-10-31T08:12:49.406Z"
+    },
+    {
+      "player": "Aadi-web-op",
+      "mark": "X",
+      "cell": 8,
+      "at": "2026-10-31T08:13:26.931Z"
+    }
+  ],
+  "record": {
+    "human": 0,
+    "ai": 1,
+    "draw": 2
+  },
+  "recent": [
+    {
+      "players": [
+        "NANDGOPALSHARMA-29",
+        "Aadi-web-op"
+      ],
+      "result": "draw",
+      "at": "2026-10-31T08:13:26.931Z"
+    },
+    {
+      "players": [
+        "vanshsingla66"
+      ],
+      "result": "draw",
+      "at": "2026-10-30T11:51:28.188Z"
+    },
+    {
+      "players": [
+        "Aadi-web-op"
+      ],
+      "result": "ai",
+      "at": "2026-10-29T10:10:18.258Z"
+    }
+  ],
+  "winLine": []
+}
