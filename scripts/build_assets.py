@@ -48,15 +48,15 @@ def hero(t):
     for x in (130, 190, 250, 310):
         b.append(f'<circle cx="{x}" cy="167" r="1.4" fill="{t["accent"]}" opacity=".6"/>')
     b.append(f'<circle cy="167" r="2.8" fill="{t["accent"]}"><animate attributeName="cx" values="72;352;72" dur="5s" repeatCount="indefinite"/></circle>')
-    b.append(f'<text x="62" y="214" class="sans rise" font-size="20" fill="{t["ink"]}" style="animation-delay:.25s">Backend developer and DSA problem solver.</text>')
-    b.append(f'<text x="62" y="240" class="sans rise" font-size="15" fill="{t["muted"]}" style="animation-delay:.35s">Computer Science engineering student · Python, Java, REST APIs.</text>')
+    b.append(f'<text x="62" y="214" class="sans rise" font-size="20" fill="{t["ink"]}" style="animation-delay:.25s">Full-stack web developer and AI & data analytics enthusiast.</text>')
+    b.append(f'<text x="62" y="240" class="sans rise" font-size="15" fill="{t["muted"]}" style="animation-delay:.35s">B.Tech CSE (AI & Data Science) · GLA University.</text>')
     x = 62
-    for i, chip in enumerate(("Backend", "DSA", "Automation")):
+    for i, chip in enumerate(("Full-stack Web", "Automation", "DSA")):
         w = int(len(chip) * 7.4 + 34)
         b.append(f'<g class="rise" style="animation-delay:{.45 + i * .1}s"><rect x="{x}" y="262" width="{w}" height="30" rx="15" fill="{t["chip"]}" stroke="{t["stroke"]}"/>'
                  f'<text x="{x + w / 2}" y="281.5" text-anchor="middle" class="sans" font-size="12.5" fill="{t["muted"]}">{chip}</text></g>')
         x += w + 10
-    return svg(W, H, "".join(b), f'{P["name_first"]} {P["name_last"]}: backend developer and DSA problem solver',
+    return svg(W, H, "".join(b), f'{P["name_first"]} {P["name_last"]}: full-stack web developer and AI & data analytics enthusiast',
                SANS + ["serif400", "serifi400"])
 
 
@@ -240,21 +240,19 @@ def project(t, idx, item):
     w, h = 520, 270
     title, desc, tags = item["title"], item["desc"], item["tags"]
     lead, accent = item["lead"], item["accent"]
-    gold = "#F4C84A" if t["card"] == "#10151C" else "#A5772A"
-    glow_id = f"goldGlow{idx}"
+    pink = "#F08AB8" if t["card"] == "#10151C" else "#C34D86"
+    soft_pink = "#D96AA0" if t["card"] == "#10151C" else "#B34D7D"
     b = [
-        f'<defs><linearGradient id="goldBorder{idx}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{gold}"/><stop offset=".48" stop-color="#F18B36"/><stop offset="1" stop-color="{gold}"/></linearGradient>'
-        f'<filter id="{glow_id}" x="-12%" y="-12%" width="124%" height="124%"><feGaussianBlur stdDeviation="3.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>',
-        f'<rect x="3" y="3" width="514" height="264" rx="20" fill="{t["card"]}" stroke="url(#goldBorder{idx})" stroke-width="1.7" filter="url(#{glow_id})"/>',
-        mandala(t),
+        f'<rect x="1" y="1" width="518" height="268" rx="18" fill="{t["card"]}" stroke="{soft_pink}" stroke-opacity=".42" stroke-width="1"/>',
+        f'<g transform="translate(447 82)" fill="none" stroke="{soft_pink}" stroke-width=".8" opacity=".12"><circle r="12"/><circle r="23"/><circle r="38"/><circle r="54"/><circle r="68"/></g>',
         feather(t),
-        f'<text x="30" y="39" class="sans" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="{gold}">{idx:02d} · PROJECT</text>',
-        f'<path d="M168 34H225" stroke="{gold}" stroke-width="1.2" opacity=".85"/>',
-        f'<text x="30" y="82" class="serif" font-size="34" font-weight="400" fill="{t["ink"]}">{escape(lead)} <tspan font-style="italic" fill="{gold}">{escape(accent)}</tspan></text>',
+        f'<text x="30" y="39" class="sans" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="{pink}">{idx:02d} · PROJECT</text>',
+        f'<path d="M168 34H225" stroke="{pink}" stroke-width="1.2" opacity=".75"/>',
+        f'<text x="30" y="82" class="serif" font-size="34" font-weight="400" fill="{t["ink"]}">{escape(lead)} <tspan font-style="italic" fill="{pink}">{escape(accent)}</tspan></text>',
     ]
     if item.get("live"):
-        b.append(f'<g><rect x="431" y="26" width="58" height="22" rx="11" fill="{t["chip"]}" stroke="{gold}" stroke-width="1"/>'
-                 f'<circle cx="443" cy="37" r="3.2" fill="#38C98B"/><text x="452" y="41" class="sans" font-size="9.5" font-weight="600" letter-spacing=".8" fill="{gold}">LIVE</text></g>')
+        b.append(f'<g><rect x="431" y="26" width="58" height="22" rx="11" fill="{t["chip"]}" stroke="{pink}" stroke-width="1"/>'
+                 f'<circle cx="443" cy="37" r="3.2" fill="#38C98B"/><text x="452" y="41" class="sans" font-size="9.5" font-weight="600" letter-spacing=".8" fill="{pink}">LIVE</text></g>')
     for i, line in enumerate(wrap(desc, 64)):
         b.append(f'<text x="30" y="{116 + i * 22}" class="serif" font-size="17" fill="{t["ink"]}">{escape(line)}</text>')
 
@@ -270,12 +268,12 @@ def project(t, idx, item):
         tw = int(len(tag) * 7.0 + 34)
         if x + tw > 490:
             x, y = 30, 229
-        b.append(f'<rect x="{x}" y="{y-17}" width="{tw}" height="27" rx="13.5" fill="{t["chip"]}" stroke="{gold}" stroke-opacity=".65"/>')
+        b.append(f'<rect x="{x}" y="{y-17}" width="{tw}" height="27" rx="13.5" fill="{t["chip"]}" stroke="{soft_pink}" stroke-opacity=".55"/>')
         b.append(f'<text x="{x + tw / 2}" y="{y + 1}" text-anchor="middle" class="serif" font-size="14" fill="{t["ink"]}">{escape(tag)}</text>')
         x += tw + 8
 
-    b.append(f'<path d="M30 235H490" stroke="{gold}" stroke-opacity=".55" stroke-width=".8"/>')
-    b.append(f'<path d="M35 248l5 -8 5 8 -5 5Z" fill="{gold}"/>')
+    b.append(f'<path d="M30 235H490" stroke="{soft_pink}" stroke-opacity=".38" stroke-width=".8"/>')
+    b.append(f'<path d="M35 248l5 -8 5 8 -5 5Z" fill="{pink}"/>')
     b.append(f'<text x="55" y="252" class="serif" font-size="14" fill="{t["ink"]}">0</text>')
     b.append(f'<path d="M108 242v10m0 -8l-5 -4m5 4l5 -4m-5 8l-5 4m5 -4l5 4" stroke="{t["ink"]}" stroke-width="1.2" fill="none" stroke-linecap="round"/>')
     b.append(f'<text x="125" y="252" class="serif" font-size="14" fill="{t["ink"]}">0</text>')
