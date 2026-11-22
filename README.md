@@ -62,5 +62,7 @@
 <div align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/footer-dark.svg"><img src="assets/footer-light.svg" width="100%" alt="Small progress every day adds up to big results."></picture>
 
+<img src="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/footer-devotional.svg" width="100%" alt="Krishna flute, peacock feather, temple bells and devotional Hindi quote.">
+
 <img src="https://komarev.com/ghpvc/?username=Ujjwal21kaushik&label=profile%20views&color=A5772A&style=flat-square" alt="Profile views">
 </div>
