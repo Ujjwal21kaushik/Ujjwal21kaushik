@@ -9,6 +9,8 @@
 
 <img src="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/hero-dark.svg" width="100%" alt="Ujjwal Kaushik — Full-stack Web Developer and AI & Data Analytics, B.Tech CSE (AI & Data Science), GLA University">
 
+<br>
+
 <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/linkedin-dark.svg"><img src="assets/buttons/linkedin-light.svg" width="24%" alt="LinkedIn"></picture></a>
 <a href="https://leetcode.com/u/ueMXf7R1D6/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/leetcode-dark.svg"><img src="assets/buttons/leetcode-light.svg" width="24%" alt="LeetCode"></picture></a>
 <a href="https://github.com/Ujjwal21kaushik"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/github-dark.svg"><img src="assets/buttons/github-light.svg" width="24%" alt="GitHub"></picture></a>
@@ -17,10 +19,13 @@
 </div>
 
 <br>
+<br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/about-dark.svg"><img src="assets/headers/about-light.svg" width="100%" alt="01 About me"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/live/about-dark.svg"><img src="assets/live/about-light.svg" width="100%" alt="Terminal-style card with an ASCII portrait and live GitHub and LeetCode stats"></picture>
+
+<br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/work-dark.svg"><img src="assets/headers/work-light.svg" width="100%" alt="02 Featured work"></picture>
 
@@ -29,10 +34,14 @@
 <a href="https://github.com/Ujjwal21kaushik/StockDrishti"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-2-dark.svg"><img src="assets/projects/project-2-light.svg" width="49%" alt="02 StockDrishti"></picture></a>
 </p>
 
+<br>
+
 <p align="center">
 <a href="https://github.com/Ujjwal21kaushik/chatbotWhatsapp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-3-dark.svg"><img src="assets/projects/project-3-light.svg" width="49%" alt="03 WhatsApp FAQ Chatbot"></picture></a>
 <a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-4-dark.svg"><img src="assets/projects/project-4-light.svg" width="49%" alt="04 CampusPramaan"></picture></a>
 </p>
+
+<br>
 
 <!-- MILESTONES (hidden for now)
   To show it: add your milestones, build assets/headers/milestones-*.svg and assets/milestones-*.svg
@@ -49,9 +58,13 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/contributions-dark.svg"><img src="assets/headers/contributions-light.svg" width="100%" alt="04 GitHub contributions"></picture>
 
+<br>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/live/github-3d-head-dark.svg"><img src="assets/live/github-3d-head-light.svg" width="100%" alt="GitHub contributions summary"></picture>
 
 <a href="https://github.com/Ujjwal21kaushik"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/profile-3d-contrib/profile-night-view.svg"><img src="profile-3d-contrib/profile-green.svg" width="100%" alt="GitHub contributions over the last 12 months as a 3D skyline"></picture></a>
+
+<br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/problem-solving-dark.svg"><img src="assets/headers/problem-solving-light.svg" width="100%" alt="05 Problem solving"></picture>
 
@@ -59,8 +72,4 @@
 
 <br>
 
-<div align="center">
-<p align="center"><em>“Small progress every day adds up to big results.”</em></p>
-
-<img src="https://komarev.com/ghpvc/?username=Ujjwal21kaushik&label=profile%20views&color=A5772A&style=flat-square" alt="Profile views">
-</div>
+<img src="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/devotional-footer.svg" width="100%" alt="Krishna flute, peacock feather, hanging golden bells and devotional Hindi quote.">
