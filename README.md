@@ -23,11 +23,15 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/about-dark.svg"><img src="assets/headers/about-light.svg" width="100%" alt="01 About me"></picture>
 
+<br>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/live/about-dark.svg"><img src="assets/live/about-light.svg" width="100%" alt="Terminal-style card with an ASCII portrait and live GitHub and LeetCode stats"></picture>
 
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/work-dark.svg"><img src="assets/headers/work-light.svg" width="100%" alt="02 Featured work"></picture>
+
+<br>
 
 <p align="center">
 <a href="https://github.com/Ujjwal21kaushik/Vypaar-Setu"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-1-dark.svg"><img src="assets/projects/project-1-light.svg" width="49%" alt="01 Vyapar Setu"></picture></a>
@@ -54,6 +58,8 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/toolbox-dark.svg"><img src="assets/headers/toolbox-light.svg" width="100%" alt="03 Toolbox"></picture>
 
+<br>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/toolbox-dark.svg"><img src="assets/toolbox-light.svg" width="100%" alt="Tech stack: Python, Java, JavaScript, FastAPI, Flask, Django, Node.js, React, PostgreSQL, MongoDB, Redis, Docker and more"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/contributions-dark.svg"><img src="assets/headers/contributions-light.svg" width="100%" alt="04 GitHub contributions"></picture>
@@ -62,8 +68,11 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/live/github-3d-head-dark.svg"><img src="assets/live/github-3d-head-light.svg" width="100%" alt="GitHub contributions summary"></picture>
 
+<br>
+
 <a href="https://github.com/Ujjwal21kaushik"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/profile-3d-contrib/profile-night-view.svg"><img src="profile-3d-contrib/profile-green.svg" width="100%" alt="GitHub contributions over the last 12 months as a 3D skyline"></picture></a>
 
+<br>
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/problem-solving-dark.svg"><img src="assets/headers/problem-solving-light.svg" width="100%" alt="05 Problem solving"></picture>
