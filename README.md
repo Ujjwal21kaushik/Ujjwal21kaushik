@@ -34,13 +34,13 @@
 <div align="center">
 
 <p>
-<a href="https://github.com/Ujjwal21kaushik/Vypaar-Setu"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-1-dark.svg"><img src="assets/projects/project-1-light.svg" width="49%" alt="01 Vyapar Setu"></picture></a><a href="https://github.com/Ujjwal21kaushik/StockDrishti"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-2-dark.svg"><img src="assets/projects/project-2-light.svg" width="49%" alt="02 StockDrishti"></picture></a>
+<a href="https://github.com/Ujjwal21kaushik/Vypaar-Setu"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-1-dark.svg"><img src="assets/projects/project-1-light.svg" width="48%" alt="01 Vyapar Setu"></picture></a>&nbsp;&nbsp;<a href="https://github.com/Ujjwal21kaushik/StockDrishti"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-2-dark.svg"><img src="assets/projects/project-2-light.svg" width="48%" alt="02 StockDrishti"></picture></a>
 </p>
 
 <br>
 
 <p>
-<a href="https://github.com/Ujjwal21kaushik/chatbotWhatsapp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-3-dark.svg"><img src="assets/projects/project-3-light.svg" width="49%" alt="03 WhatsApp FAQ Chatbot"></picture></a><a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-4-dark.svg"><img src="assets/projects/project-4-light.svg" width="49%" alt="04 CampusPramaan"></picture></a>
+<a href="https://github.com/Ujjwal21kaushik/chatbotWhatsapp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-3-dark.svg"><img src="assets/projects/project-3-light.svg" width="48%" alt="03 WhatsApp FAQ Chatbot"></picture></a>&nbsp;&nbsp;<a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-4-dark.svg"><img src="assets/projects/project-4-light.svg" width="48%" alt="04 CampusPramaan"></picture></a>
 </p>
 
 </div>
