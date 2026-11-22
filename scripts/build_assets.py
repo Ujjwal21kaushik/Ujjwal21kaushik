@@ -19,6 +19,7 @@ W = 880
 def hero(t):
     H = 314
     b = [card(W, H, t)]
+    b.append(f'<image x="4" y="8" width="100" height="45" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,{MORPANK_DATA}"/>')
     # decorative "service graph" on the right (original artwork)
     nodes = [(700, 78), (782, 56), (846, 112), (742, 146), (812, 176), (684, 206),
              (764, 236), (842, 246), (650, 140), (722, 276), (806, 288), (858, 190)]
