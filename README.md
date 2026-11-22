@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Ujjwal Kaushik: backend developer and DSA problem solver"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Ujjwal Kaushik: full-stack web developer and AI and data analytics enthusiast"></picture>
 
 <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/linkedin-dark.svg"><img src="assets/buttons/linkedin-light.svg" width="24%" alt="LinkedIn"></picture></a>
 <a href="https://leetcode.com/u/ueMXf7R1D6/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/leetcode-dark.svg"><img src="assets/buttons/leetcode-light.svg" width="24%" alt="LeetCode"></picture></a>
@@ -24,26 +24,15 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/work-dark.svg"><img src="assets/headers/work-light.svg" width="100%" alt="02 Featured work"></picture>
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/Ujjwal21kaushik/Vypaar-Setu"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-1-dark.svg"><img src="assets/projects/project-1-light.svg" width="100%" alt="01 Vyapar Setu"></picture></a>
-<a href="https://business-listing-website-alpha.vercel.app/"><strong>● LIVE DEMO ↗</strong></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/Ujjwal21kaushik/StockDrishti"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-2-dark.svg"><img src="assets/projects/project-2-light.svg" width="100%" alt="02 StockDrishti"></picture></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/Ujjwal21kaushik/chatbotWhatsapp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-3-dark.svg"><img src="assets/projects/project-3-light.svg" width="100%" alt="03 WhatsApp FAQ Chatbot"></picture></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-4-dark.svg"><img src="assets/projects/project-4-light.svg" width="100%" alt="04 CampusPramaan"></picture></a>
-</td>
-</tr>
-</table>
-
+<p align="center">
+<a href="https://github.com/Ujjwal21kaushik/Vypaar-Setu"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-1-dark.svg"><img src="assets/projects/project-1-light.svg" width="49%" alt="01 Vyapar Setu"></picture></a>
+<a href="https://github.com/Ujjwal21kaushik/StockDrishti"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-2-dark.svg"><img src="assets/projects/project-2-light.svg" width="49%" alt="02 StockDrishti"></picture></a>
+</p>
+<p align="center"><a href="https://business-listing-website-alpha.vercel.app/"><strong>● LIVE DEMO · VYAPAR SETU ↗</strong></a></p>
+<p align="center">
+<a href="https://github.com/Ujjwal21kaushik/chatbotWhatsapp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-3-dark.svg"><img src="assets/projects/project-3-light.svg" width="49%" alt="03 WhatsApp FAQ Chatbot"></picture></a>
+<a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-4-dark.svg"><img src="assets/projects/project-4-light.svg" width="49%" alt="04 CampusPramaan"></picture></a>
+</p>
 
 <!-- MILESTONES (hidden for now)
   To show it: add your milestones, build assets/headers/milestones-*.svg and assets/milestones-*.svg
