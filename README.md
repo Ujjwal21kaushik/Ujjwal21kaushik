@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Ujjwal Kaushik: full-stack web developer and AI and data analytics enthusiast"></picture>
+<img src="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/hero-dark.svg" width="100%" alt="Ujjwal Kaushik — Full-stack Web Developer and AI & Data Analytics, B.Tech CSE (AI & Data Science), GLA University">
 
 <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/linkedin-dark.svg"><img src="assets/buttons/linkedin-light.svg" width="24%" alt="LinkedIn"></picture></a>
 <a href="https://leetcode.com/u/ueMXf7R1D6/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/leetcode-dark.svg"><img src="assets/buttons/leetcode-light.svg" width="24%" alt="LeetCode"></picture></a>
