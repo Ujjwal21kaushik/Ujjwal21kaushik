@@ -10,6 +10,7 @@
 <img src="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/hero-dark.svg" width="100%" alt="Ujjwal Kaushik — Full-stack Web Developer and AI & Data Analytics, B.Tech CSE (AI & Data Science), GLA University">
 
 <br>
+<br>
 
 <a href="https://www.linkedin.com/in/ujjwal-kaushik-447763280"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/linkedin-dark.svg"><img src="assets/buttons/linkedin-light.svg" width="24%" alt="LinkedIn"></picture></a>
 <a href="https://leetcode.com/u/ueMXf7R1D6/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/leetcode-dark.svg"><img src="assets/buttons/leetcode-light.svg" width="24%" alt="LeetCode"></picture></a>
@@ -17,8 +18,6 @@
 <a href="mailto:ujjwalkaus21@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/buttons/email-dark.svg"><img src="assets/buttons/email-light.svg" width="24%" alt="Email"></picture></a>
 
 </div>
-
-<br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/about-dark.svg"><img src="assets/headers/about-light.svg" width="100%" alt="01 About me"></picture>
 
