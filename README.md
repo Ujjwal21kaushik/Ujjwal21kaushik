@@ -25,13 +25,17 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/headers/work-dark.svg"><img src="assets/headers/work-light.svg" width="100%" alt="02 Featured work"></picture>
 
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-1-dark.svg"><img src="assets/projects/project-1-light.svg" width="49%" alt="WhatsApp FAQ Automation"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-2-dark.svg"><img src="assets/projects/project-2-light.svg" width="49%" alt="Business Listing Platform"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-3-dark.svg"><img src="assets/projects/project-3-light.svg" width="49%" alt="Data Dashboard"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-4-dark.svg"><img src="assets/projects/project-4-light.svg" width="49%" alt="Mini CDN Concepts"></picture>
+<a href="https://github.com/Ujjwal21kaushik/Vypaar-Setu"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-1-dark.svg"><img src="assets/projects/project-1-light.svg" width="49%" alt="01 Vyapar Setu — full-stack local business discovery platform"></picture></a>
+<a href="https://github.com/Ujjwal21kaushik/StockDrishti"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-2-dark.svg"><img src="assets/projects/project-2-light.svg" width="49%" alt="02 StockDrishti — retail inventory and billing system"></picture></a>
 </p>
 
-<!-- To make a card clickable, wrap it:  <a href="https://github.com/Ujjwal21kaushik/REPO">...picture...</a> -->
+<p align="center">↗ <a href="https://business-listing-website-alpha.vercel.app/">Live demo · Vyapar Setu</a></p>
+
+<p align="center">
+<a href="https://github.com/Ujjwal21kaushik/chatbotWhatsapp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-3-dark.svg"><img src="assets/projects/project-3-light.svg" width="49%" alt="03 WhatsApp FAQ Chatbot — Flask, Twilio and RapidFuzz"></picture></a>
+<a href="https://github.com/Ujjwal21kaushik/CampusPramaan"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ujjwal21kaushik/Ujjwal21kaushik/main/assets/projects/project-4-dark.svg"><img src="assets/projects/project-4-light.svg" width="49%" alt="04 CampusPramaan — face and location verified attendance system"></picture></a>
+</p>
+
 
 <!-- MILESTONES (hidden for now)
   To show it: add your milestones, build assets/headers/milestones-*.svg and assets/milestones-*.svg
